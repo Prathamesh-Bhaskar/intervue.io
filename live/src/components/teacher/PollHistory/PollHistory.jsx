@@ -13,7 +13,7 @@ const PollHistory = () => {
       socket.emit('teacher:get_history', (response) => {
         setIsLoading(false)
         if (response?.success) {
-          setPollHistory(response.data || [])
+          setPollHistory(response.data?.polls || [])
         }
       })
     }

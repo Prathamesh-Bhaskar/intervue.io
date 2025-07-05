@@ -233,7 +233,9 @@ class PollService {
       return polls.map(poll => ({
         ...poll,
         id: poll._id.toString(),
-        results: poll.results ? Object.fromEntries(poll.results) : {},
+        results: Array.isArray(poll.results)
+          ? Object.fromEntries(poll.results)
+          : (poll.results || {}),
       }));
 
     } catch (error) {
@@ -252,7 +254,9 @@ class PollService {
       return polls.map(poll => ({
         ...poll,
         id: poll._id.toString(),
-        results: poll.results ? Object.fromEntries(poll.results) : {},
+        results: Array.isArray(poll.results)
+          ? Object.fromEntries(poll.results)
+          : (poll.results || {}),
       }));
 
     } catch (error) {

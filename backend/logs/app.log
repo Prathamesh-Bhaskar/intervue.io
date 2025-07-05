@@ -573,3 +573,327 @@
 {"level":"info","message":"Timer stopped for poll 6868e6f7d8cc43930d867582","service":"live-polling-backend","timestamp":"2025-07-05 14:19:09"}
 {"level":"info","message":"All students vote status reset","service":"live-polling-backend","timestamp":"2025-07-05 14:19:09"}
 {"level":"info","message":"Poll ended by teacher: 6868e6f7d8cc43930d867582","service":"live-polling-backend","timestamp":"2025-07-05 14:19:09"}
+{"level":"info","message":"✅ MongoDB connected successfully","service":"live-polling-backend","timestamp":"2025-07-05 15:18:19"}
+{"level":"info","message":"🔄 Redis connecting...","service":"live-polling-backend","timestamp":"2025-07-05 15:18:19"}
+{"level":"info","message":"✅ Redis connected successfully","service":"live-polling-backend","timestamp":"2025-07-05 15:18:19"}
+{"level":"info","message":"✅ Socket.io server configured","service":"live-polling-backend","timestamp":"2025-07-05 15:18:19"}
+{"level":"info","message":"🚀 Server running on port 3001","service":"live-polling-backend","timestamp":"2025-07-05 15:18:19"}
+{"level":"info","message":"📊 Environment: development","service":"live-polling-backend","timestamp":"2025-07-05 15:18:19"}
+{"level":"info","message":"🌐 CORS enabled for: http://localhost:3000","service":"live-polling-backend","timestamp":"2025-07-05 15:18:19"}
+{"level":"info","message":"New socket connection: 8TSJPP9lSbycDEmVAAAC","service":"live-polling-backend","timestamp":"2025-07-05 15:18:32"}
+{"level":"info","message":"Socket 8TSJPP9lSbycDEmVAAAC connected and joined main room","service":"live-polling-backend","timestamp":"2025-07-05 15:18:32"}
+{"level":"error","message":"Error joining session: This name is already taken. Please choose a different name.","service":"live-polling-backend","stack":"Error: This name is already taken. Please choose a different name.\n    at StudentService.joinSession (C:\\Users\\Admin\\Downloads\\projects\\livePoll\\intervue.io\\backend\\src\\services\\studentService.js:18:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async StudentHandler.handleStudentJoin (C:\\Users\\Admin\\Downloads\\projects\\livePoll\\intervue.io\\backend\\src\\socket\\handlers\\studentHandler.js:27:22)","timestamp":"2025-07-05 15:18:42"}
+{"level":"error","message":"Error handling student join: This name is already taken. Please choose a different name.","service":"live-polling-backend","stack":"Error: This name is already taken. Please choose a different name.\n    at StudentService.joinSession (C:\\Users\\Admin\\Downloads\\projects\\livePoll\\intervue.io\\backend\\src\\services\\studentService.js:18:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async StudentHandler.handleStudentJoin (C:\\Users\\Admin\\Downloads\\projects\\livePoll\\intervue.io\\backend\\src\\socket\\handlers\\studentHandler.js:27:22)","timestamp":"2025-07-05 15:18:42"}
+{"level":"info","message":"Student added: hi (8TSJPP9lSbycDEmVAAAC)","service":"live-polling-backend","timestamp":"2025-07-05 15:18:48"}
+{"level":"info","message":"Student joined: hi (8TSJPP9lSbycDEmVAAAC)","service":"live-polling-backend","timestamp":"2025-07-05 15:18:48"}
+{"level":"info","message":"Student joined: hi (8TSJPP9lSbycDEmVAAAC)","service":"live-polling-backend","timestamp":"2025-07-05 15:18:48"}
+{"level":"error","message":"Error joining session: This name is already taken. Please choose a different name.","service":"live-polling-backend","stack":"Error: This name is already taken. Please choose a different name.\n    at StudentService.joinSession (C:\\Users\\Admin\\Downloads\\projects\\livePoll\\intervue.io\\backend\\src\\services\\studentService.js:18:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async StudentHandler.handleStudentJoin (C:\\Users\\Admin\\Downloads\\projects\\livePoll\\intervue.io\\backend\\src\\socket\\handlers\\studentHandler.js:27:22)","timestamp":"2025-07-05 15:18:48"}
+{"level":"error","message":"Error joining session: This name is already taken. Please choose a different name.","service":"live-polling-backend","stack":"Error: This name is already taken. Please choose a different name.\n    at StudentService.joinSession (C:\\Users\\Admin\\Downloads\\projects\\livePoll\\intervue.io\\backend\\src\\services\\studentService.js:18:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async StudentHandler.handleStudentJoin (C:\\Users\\Admin\\Downloads\\projects\\livePoll\\intervue.io\\backend\\src\\socket\\handlers\\studentHandler.js:27:22)","timestamp":"2025-07-05 15:18:48"}
+{"level":"error","message":"Error handling student join: This name is already taken. Please choose a different name.","service":"live-polling-backend","stack":"Error: This name is already taken. Please choose a different name.\n    at StudentService.joinSession (C:\\Users\\Admin\\Downloads\\projects\\livePoll\\intervue.io\\backend\\src\\services\\studentService.js:18:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async StudentHandler.handleStudentJoin (C:\\Users\\Admin\\Downloads\\projects\\livePoll\\intervue.io\\backend\\src\\socket\\handlers\\studentHandler.js:27:22)","timestamp":"2025-07-05 15:18:48"}
+{"level":"error","message":"Error handling student join: This name is already taken. Please choose a different name.","service":"live-polling-backend","stack":"Error: This name is already taken. Please choose a different name.\n    at StudentService.joinSession (C:\\Users\\Admin\\Downloads\\projects\\livePoll\\intervue.io\\backend\\src\\services\\studentService.js:18:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async StudentHandler.handleStudentJoin (C:\\Users\\Admin\\Downloads\\projects\\livePoll\\intervue.io\\backend\\src\\socket\\handlers\\studentHandler.js:27:22)","timestamp":"2025-07-05 15:18:48"}
+{"level":"info","message":"Vote submitted: hi voted for \"gasnk.ga\" in poll 6868f0f5d8cc43930d867594","service":"live-polling-backend","timestamp":"2025-07-05 15:18:56"}
+{"level":"info","message":"Vote submitted: hi voted for \"gasnk.ga\" in poll 6868f0f5d8cc43930d867594","service":"live-polling-backend","timestamp":"2025-07-05 15:18:56"}
+{"level":"info","message":"Teacher session set: 8TSJPP9lSbycDEmVAAAC","service":"live-polling-backend","timestamp":"2025-07-05 15:19:04"}
+{"level":"info","message":"Teacher session set: 8TSJPP9lSbycDEmVAAAC","service":"live-polling-backend","timestamp":"2025-07-05 15:19:04"}
+{"level":"info","message":"Teacher joined: 8TSJPP9lSbycDEmVAAAC","service":"live-polling-backend","timestamp":"2025-07-05 15:19:04"}
+{"level":"info","message":"Teacher joined: 8TSJPP9lSbycDEmVAAAC","service":"live-polling-backend","timestamp":"2025-07-05 15:19:04"}
+{"level":"info","message":"✅ MongoDB connected successfully","service":"live-polling-backend","timestamp":"2025-07-05 15:26:03"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis connection error:","service":"live-polling-backend","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1139:18)\n    at afterConnectMultiple (node:net:1712:7)","timestamp":"2025-07-05 15:26:03"}
+{"level":"info","message":"🔄 Redis reconnecting...","service":"live-polling-backend","timestamp":"2025-07-05 15:26:03"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis connection error:","service":"live-polling-backend","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1139:18)\n    at afterConnectMultiple (node:net:1712:7)","timestamp":"2025-07-05 15:26:03"}
+{"level":"info","message":"🔄 Redis reconnecting...","service":"live-polling-backend","timestamp":"2025-07-05 15:26:03"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis connection error:","service":"live-polling-backend","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1139:18)\n    at afterConnectMultiple (node:net:1712:7)","timestamp":"2025-07-05 15:26:03"}
+{"level":"info","message":"🔄 Redis reconnecting...","service":"live-polling-backend","timestamp":"2025-07-05 15:26:03"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis connection error:","service":"live-polling-backend","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1139:18)\n    at afterConnectMultiple (node:net:1712:7)","timestamp":"2025-07-05 15:26:03"}
+{"level":"info","message":"🔄 Redis reconnecting...","service":"live-polling-backend","timestamp":"2025-07-05 15:26:04"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis connection error:","service":"live-polling-backend","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1139:18)\n    at afterConnectMultiple (node:net:1712:7)","timestamp":"2025-07-05 15:26:04"}
+{"level":"info","message":"✅ MongoDB connected successfully","service":"live-polling-backend","timestamp":"2025-07-05 15:26:52"}
+{"level":"info","message":"🔄 Redis connecting...","service":"live-polling-backend","timestamp":"2025-07-05 15:26:52"}
+{"level":"info","message":"✅ Redis connected successfully","service":"live-polling-backend","timestamp":"2025-07-05 15:26:52"}
+{"level":"info","message":"✅ Socket.io server configured","service":"live-polling-backend","timestamp":"2025-07-05 15:26:52"}
+{"level":"info","message":"🚀 Server running on port 3001","service":"live-polling-backend","timestamp":"2025-07-05 15:26:52"}
+{"level":"info","message":"📊 Environment: development","service":"live-polling-backend","timestamp":"2025-07-05 15:26:52"}
+{"level":"info","message":"🌐 CORS enabled for: http://localhost:3000","service":"live-polling-backend","timestamp":"2025-07-05 15:26:52"}
+{"level":"info","message":"New socket connection: u2_FeOeeX2wgFxZrAAAC","service":"live-polling-backend","timestamp":"2025-07-05 15:27:11"}
+{"level":"info","message":"Socket u2_FeOeeX2wgFxZrAAAC connected and joined main room","service":"live-polling-backend","timestamp":"2025-07-05 15:27:12"}
+{"level":"info","message":"Teacher session set: u2_FeOeeX2wgFxZrAAAC","service":"live-polling-backend","timestamp":"2025-07-05 15:27:15"}
+{"level":"info","message":"Teacher session set: u2_FeOeeX2wgFxZrAAAC","service":"live-polling-backend","timestamp":"2025-07-05 15:27:15"}
+{"level":"info","message":"Teacher joined: u2_FeOeeX2wgFxZrAAAC","service":"live-polling-backend","timestamp":"2025-07-05 15:27:15"}
+{"level":"info","message":"Teacher joined: u2_FeOeeX2wgFxZrAAAC","service":"live-polling-backend","timestamp":"2025-07-05 15:27:15"}
+{"level":"error","message":"Error creating poll: There is already an active poll. End the current poll first.","service":"live-polling-backend","stack":"Error: There is already an active poll. End the current poll first.\n    at PollService.createPoll (C:\\Users\\Admin\\Downloads\\projects\\livePoll\\intervue.io\\backend\\src\\services\\pollService.js:30:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async TeacherHandler.handleCreatePoll (C:\\Users\\Admin\\Downloads\\projects\\livePoll\\intervue.io\\backend\\src\\socket\\handlers\\teacherHandler.js:48:22)","timestamp":"2025-07-05 15:27:28"}
+{"level":"error","message":"Error creating poll: There is already an active poll. End the current poll first.","service":"live-polling-backend","stack":"Error: There is already an active poll. End the current poll first.\n    at PollService.createPoll (C:\\Users\\Admin\\Downloads\\projects\\livePoll\\intervue.io\\backend\\src\\services\\pollService.js:30:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async TeacherHandler.handleCreatePoll (C:\\Users\\Admin\\Downloads\\projects\\livePoll\\intervue.io\\backend\\src\\socket\\handlers\\teacherHandler.js:48:22)","timestamp":"2025-07-05 15:27:28"}
+{"level":"error","message":"Error creating poll: There is already an active poll. End the current poll first.","service":"live-polling-backend","stack":"Error: There is already an active poll. End the current poll first.\n    at PollService.createPoll (C:\\Users\\Admin\\Downloads\\projects\\livePoll\\intervue.io\\backend\\src\\services\\pollService.js:30:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async TeacherHandler.handleCreatePoll (C:\\Users\\Admin\\Downloads\\projects\\livePoll\\intervue.io\\backend\\src\\socket\\handlers\\teacherHandler.js:48:22)","timestamp":"2025-07-05 15:27:33"}
+{"level":"error","message":"Error creating poll: There is already an active poll. End the current poll first.","service":"live-polling-backend","stack":"Error: There is already an active poll. End the current poll first.\n    at PollService.createPoll (C:\\Users\\Admin\\Downloads\\projects\\livePoll\\intervue.io\\backend\\src\\services\\pollService.js:30:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async TeacherHandler.handleCreatePoll (C:\\Users\\Admin\\Downloads\\projects\\livePoll\\intervue.io\\backend\\src\\socket\\handlers\\teacherHandler.js:48:22)","timestamp":"2025-07-05 15:27:33"}
+{"level":"info","message":"✅ MongoDB connected successfully","service":"live-polling-backend","timestamp":"2025-07-05 15:29:35"}
+{"level":"info","message":"🔄 Redis connecting...","service":"live-polling-backend","timestamp":"2025-07-05 15:29:36"}
+{"level":"info","message":"✅ Redis connected successfully","service":"live-polling-backend","timestamp":"2025-07-05 15:29:36"}
+{"level":"info","message":"✅ Socket.io server configured","service":"live-polling-backend","timestamp":"2025-07-05 15:29:36"}
+{"level":"info","message":"🚀 Server running on port 3001","service":"live-polling-backend","timestamp":"2025-07-05 15:29:36"}
+{"level":"info","message":"📊 Environment: development","service":"live-polling-backend","timestamp":"2025-07-05 15:29:36"}
+{"level":"info","message":"🌐 CORS enabled for: http://localhost:3000","service":"live-polling-backend","timestamp":"2025-07-05 15:29:36"}
+{"level":"info","message":"New socket connection: WkkE20_JxeH13GvBAAAB","service":"live-polling-backend","timestamp":"2025-07-05 15:29:36"}
+{"level":"info","message":"Socket WkkE20_JxeH13GvBAAAB connected and joined main room","service":"live-polling-backend","timestamp":"2025-07-05 15:29:36"}
+{"level":"info","message":"Socket WkkE20_JxeH13GvBAAAB disconnected: transport close","service":"live-polling-backend","timestamp":"2025-07-05 15:29:51"}
+{"level":"info","message":"New socket connection: lvQABQU--e8iIsBwAAAE","service":"live-polling-backend","timestamp":"2025-07-05 15:29:53"}
+{"level":"info","message":"Socket lvQABQU--e8iIsBwAAAE connected and joined main room","service":"live-polling-backend","timestamp":"2025-07-05 15:29:53"}
+{"level":"info","message":"Teacher session set: lvQABQU--e8iIsBwAAAE","service":"live-polling-backend","timestamp":"2025-07-05 15:29:53"}
+{"level":"info","message":"Teacher joined: lvQABQU--e8iIsBwAAAE","service":"live-polling-backend","timestamp":"2025-07-05 15:29:53"}
+{"level":"info","message":"Teacher session set: lvQABQU--e8iIsBwAAAE","service":"live-polling-backend","timestamp":"2025-07-05 15:29:57"}
+{"level":"info","message":"Teacher session set: lvQABQU--e8iIsBwAAAE","service":"live-polling-backend","timestamp":"2025-07-05 15:29:57"}
+{"level":"info","message":"Teacher joined: lvQABQU--e8iIsBwAAAE","service":"live-polling-backend","timestamp":"2025-07-05 15:29:57"}
+{"level":"info","message":"Teacher joined: lvQABQU--e8iIsBwAAAE","service":"live-polling-backend","timestamp":"2025-07-05 15:29:57"}
+{"level":"error","message":"Error creating poll: There is already an active poll. End the current poll first.","service":"live-polling-backend","stack":"Error: There is already an active poll. End the current poll first.\n    at PollService.createPoll (C:\\Users\\Admin\\Downloads\\projects\\livePoll\\intervue.io\\backend\\src\\services\\pollService.js:30:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async TeacherHandler.handleCreatePoll (C:\\Users\\Admin\\Downloads\\projects\\livePoll\\intervue.io\\backend\\src\\socket\\handlers\\teacherHandler.js:48:22)","timestamp":"2025-07-05 15:30:11"}
+{"level":"error","message":"Error creating poll: There is already an active poll. End the current poll first.","service":"live-polling-backend","stack":"Error: There is already an active poll. End the current poll first.\n    at PollService.createPoll (C:\\Users\\Admin\\Downloads\\projects\\livePoll\\intervue.io\\backend\\src\\services\\pollService.js:30:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async TeacherHandler.handleCreatePoll (C:\\Users\\Admin\\Downloads\\projects\\livePoll\\intervue.io\\backend\\src\\socket\\handlers\\teacherHandler.js:48:22)","timestamp":"2025-07-05 15:30:11"}
+{"level":"info","message":"✅ MongoDB connected successfully","service":"live-polling-backend","timestamp":"2025-07-05 15:35:27"}
+{"level":"info","message":"🔄 Redis connecting...","service":"live-polling-backend","timestamp":"2025-07-05 15:35:27"}
+{"level":"info","message":"✅ Redis connected successfully","service":"live-polling-backend","timestamp":"2025-07-05 15:35:27"}
+{"level":"info","message":"✅ Socket.io server configured","service":"live-polling-backend","timestamp":"2025-07-05 15:35:27"}
+{"level":"info","message":"🚀 Server running on port 3001","service":"live-polling-backend","timestamp":"2025-07-05 15:35:27"}
+{"level":"info","message":"📊 Environment: development","service":"live-polling-backend","timestamp":"2025-07-05 15:35:27"}
+{"level":"info","message":"🌐 CORS enabled for: http://localhost:3000","service":"live-polling-backend","timestamp":"2025-07-05 15:35:27"}
+{"level":"info","message":"New socket connection: _UYuq1UMKsLkv81aAAAB","service":"live-polling-backend","timestamp":"2025-07-05 15:35:27"}
+{"level":"info","message":"Socket _UYuq1UMKsLkv81aAAAB connected and joined main room","service":"live-polling-backend","timestamp":"2025-07-05 15:35:27"}
+{"level":"info","message":"New socket connection: E7M7-nu94KxQl9LLAAAE","service":"live-polling-backend","timestamp":"2025-07-05 15:35:37"}
+{"level":"info","message":"Socket E7M7-nu94KxQl9LLAAAE connected and joined main room","service":"live-polling-backend","timestamp":"2025-07-05 15:35:37"}
+{"level":"info","message":"Socket _UYuq1UMKsLkv81aAAAB disconnected: transport close","service":"live-polling-backend","timestamp":"2025-07-05 15:35:42"}
+{"level":"info","message":"New socket connection: k-QreYORGjTPAGcxAAAH","service":"live-polling-backend","timestamp":"2025-07-05 15:35:42"}
+{"level":"info","message":"Socket k-QreYORGjTPAGcxAAAH connected and joined main room","service":"live-polling-backend","timestamp":"2025-07-05 15:35:43"}
+{"level":"info","message":"Teacher session set: k-QreYORGjTPAGcxAAAH","service":"live-polling-backend","timestamp":"2025-07-05 15:35:43"}
+{"level":"info","message":"Teacher joined: k-QreYORGjTPAGcxAAAH","service":"live-polling-backend","timestamp":"2025-07-05 15:35:43"}
+{"level":"info","message":"Teacher session set: k-QreYORGjTPAGcxAAAH","service":"live-polling-backend","timestamp":"2025-07-05 15:35:48"}
+{"level":"info","message":"Teacher session set: k-QreYORGjTPAGcxAAAH","service":"live-polling-backend","timestamp":"2025-07-05 15:35:48"}
+{"level":"info","message":"Teacher joined: k-QreYORGjTPAGcxAAAH","service":"live-polling-backend","timestamp":"2025-07-05 15:35:48"}
+{"level":"info","message":"Teacher joined: k-QreYORGjTPAGcxAAAH","service":"live-polling-backend","timestamp":"2025-07-05 15:35:48"}
+{"level":"info","message":"New socket connection: YW-tGl5WWGTLm22oAAAK","service":"live-polling-backend","timestamp":"2025-07-05 17:38:33"}
+{"level":"info","message":"Socket YW-tGl5WWGTLm22oAAAK connected and joined main room","service":"live-polling-backend","timestamp":"2025-07-05 17:38:33"}
+{"level":"info","message":"New socket connection: fcyZtIDfo5FHB0gVAAAN","service":"live-polling-backend","timestamp":"2025-07-05 17:38:33"}
+{"level":"info","message":"Socket fcyZtIDfo5FHB0gVAAAN connected and joined main room","service":"live-polling-backend","timestamp":"2025-07-05 17:38:33"}
+{"level":"info","message":"Teacher session set: fcyZtIDfo5FHB0gVAAAN","service":"live-polling-backend","timestamp":"2025-07-05 17:38:33"}
+{"level":"info","message":"Teacher joined: fcyZtIDfo5FHB0gVAAAN","service":"live-polling-backend","timestamp":"2025-07-05 17:38:33"}
+{"level":"info","message":"Socket fcyZtIDfo5FHB0gVAAAN disconnected: transport close","service":"live-polling-backend","timestamp":"2025-07-05 17:39:02"}
+{"level":"warn","message":"Teacher disconnected","service":"live-polling-backend","timestamp":"2025-07-05 17:39:02"}
+{"level":"info","message":"New socket connection: DoqFAtXAGgiN2e6GAAAQ","service":"live-polling-backend","timestamp":"2025-07-05 17:39:02"}
+{"level":"info","message":"Socket DoqFAtXAGgiN2e6GAAAQ connected and joined main room","service":"live-polling-backend","timestamp":"2025-07-05 17:39:02"}
+{"level":"info","message":"Student added: Saurabh kale (DoqFAtXAGgiN2e6GAAAQ)","service":"live-polling-backend","timestamp":"2025-07-05 17:39:09"}
+{"level":"info","message":"Student joined: Saurabh kale (DoqFAtXAGgiN2e6GAAAQ)","service":"live-polling-backend","timestamp":"2025-07-05 17:39:09"}
+{"level":"info","message":"Student joined: Saurabh kale (DoqFAtXAGgiN2e6GAAAQ)","service":"live-polling-backend","timestamp":"2025-07-05 17:39:09"}
+{"level":"error","message":"Error joining session: This name is already taken. Please choose a different name.","service":"live-polling-backend","stack":"Error: This name is already taken. Please choose a different name.\n    at StudentService.joinSession (C:\\Users\\Admin\\Downloads\\projects\\livePoll\\intervue.io\\backend\\src\\services\\studentService.js:18:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async StudentHandler.handleStudentJoin (C:\\Users\\Admin\\Downloads\\projects\\livePoll\\intervue.io\\backend\\src\\socket\\handlers\\studentHandler.js:27:22)","timestamp":"2025-07-05 17:39:09"}
+{"level":"error","message":"Error joining session: This name is already taken. Please choose a different name.","service":"live-polling-backend","stack":"Error: This name is already taken. Please choose a different name.\n    at StudentService.joinSession (C:\\Users\\Admin\\Downloads\\projects\\livePoll\\intervue.io\\backend\\src\\services\\studentService.js:18:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async StudentHandler.handleStudentJoin (C:\\Users\\Admin\\Downloads\\projects\\livePoll\\intervue.io\\backend\\src\\socket\\handlers\\studentHandler.js:27:22)","timestamp":"2025-07-05 17:39:09"}
+{"level":"error","message":"Error handling student join: This name is already taken. Please choose a different name.","service":"live-polling-backend","stack":"Error: This name is already taken. Please choose a different name.\n    at StudentService.joinSession (C:\\Users\\Admin\\Downloads\\projects\\livePoll\\intervue.io\\backend\\src\\services\\studentService.js:18:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async StudentHandler.handleStudentJoin (C:\\Users\\Admin\\Downloads\\projects\\livePoll\\intervue.io\\backend\\src\\socket\\handlers\\studentHandler.js:27:22)","timestamp":"2025-07-05 17:39:09"}
+{"level":"error","message":"Error handling student join: This name is already taken. Please choose a different name.","service":"live-polling-backend","stack":"Error: This name is already taken. Please choose a different name.\n    at StudentService.joinSession (C:\\Users\\Admin\\Downloads\\projects\\livePoll\\intervue.io\\backend\\src\\services\\studentService.js:18:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async StudentHandler.handleStudentJoin (C:\\Users\\Admin\\Downloads\\projects\\livePoll\\intervue.io\\backend\\src\\socket\\handlers\\studentHandler.js:27:22)","timestamp":"2025-07-05 17:39:09"}
+{"level":"info","message":"Active poll set: 686915fe0992068650d14f02","service":"live-polling-backend","timestamp":"2025-07-05 17:39:34"}
+{"level":"info","message":"Poll votes initialized for: 686915fe0992068650d14f02","service":"live-polling-backend","timestamp":"2025-07-05 17:39:34"}
+{"level":"info","message":"Poll created: 686915fe0992068650d14f02 by k-QreYORGjTPAGcxAAAH","service":"live-polling-backend","timestamp":"2025-07-05 17:39:34"}
+{"level":"info","message":"Timer started for poll 686915fe0992068650d14f02: 60 seconds","service":"live-polling-backend","timestamp":"2025-07-05 17:39:34"}
+{"level":"info","message":"Poll created and broadcasted: 686915fe0992068650d14f02","service":"live-polling-backend","timestamp":"2025-07-05 17:39:34"}
+{"level":"info","message":"Vote submitted: Saurabh kale voted for \"a\" in poll 686915fe0992068650d14f02","service":"live-polling-backend","timestamp":"2025-07-05 17:40:00"}
+{"level":"info","message":"Vote submitted: Saurabh kale voted for \"a\" in poll 686915fe0992068650d14f02","service":"live-polling-backend","timestamp":"2025-07-05 17:40:00"}
+{"level":"info","message":"Socket YW-tGl5WWGTLm22oAAAK disconnected: transport close","service":"live-polling-backend","timestamp":"2025-07-05 17:40:04"}
+{"level":"info","message":"Student added: Ashitosh (E7M7-nu94KxQl9LLAAAE)","service":"live-polling-backend","timestamp":"2025-07-05 17:40:20"}
+{"level":"info","message":"Student joined: Ashitosh (E7M7-nu94KxQl9LLAAAE)","service":"live-polling-backend","timestamp":"2025-07-05 17:40:20"}
+{"level":"info","message":"Student joined: Ashitosh (E7M7-nu94KxQl9LLAAAE)","service":"live-polling-backend","timestamp":"2025-07-05 17:40:20"}
+{"level":"error","message":"Error joining session: This name is already taken. Please choose a different name.","service":"live-polling-backend","stack":"Error: This name is already taken. Please choose a different name.\n    at StudentService.joinSession (C:\\Users\\Admin\\Downloads\\projects\\livePoll\\intervue.io\\backend\\src\\services\\studentService.js:18:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async StudentHandler.handleStudentJoin (C:\\Users\\Admin\\Downloads\\projects\\livePoll\\intervue.io\\backend\\src\\socket\\handlers\\studentHandler.js:27:22)","timestamp":"2025-07-05 17:40:20"}
+{"level":"error","message":"Error joining session: This name is already taken. Please choose a different name.","service":"live-polling-backend","stack":"Error: This name is already taken. Please choose a different name.\n    at StudentService.joinSession (C:\\Users\\Admin\\Downloads\\projects\\livePoll\\intervue.io\\backend\\src\\services\\studentService.js:18:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async StudentHandler.handleStudentJoin (C:\\Users\\Admin\\Downloads\\projects\\livePoll\\intervue.io\\backend\\src\\socket\\handlers\\studentHandler.js:27:22)","timestamp":"2025-07-05 17:40:20"}
+{"level":"error","message":"Error handling student join: This name is already taken. Please choose a different name.","service":"live-polling-backend","stack":"Error: This name is already taken. Please choose a different name.\n    at StudentService.joinSession (C:\\Users\\Admin\\Downloads\\projects\\livePoll\\intervue.io\\backend\\src\\services\\studentService.js:18:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async StudentHandler.handleStudentJoin (C:\\Users\\Admin\\Downloads\\projects\\livePoll\\intervue.io\\backend\\src\\socket\\handlers\\studentHandler.js:27:22)","timestamp":"2025-07-05 17:40:20"}
+{"level":"error","message":"Error handling student join: This name is already taken. Please choose a different name.","service":"live-polling-backend","stack":"Error: This name is already taken. Please choose a different name.\n    at StudentService.joinSession (C:\\Users\\Admin\\Downloads\\projects\\livePoll\\intervue.io\\backend\\src\\services\\studentService.js:18:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async StudentHandler.handleStudentJoin (C:\\Users\\Admin\\Downloads\\projects\\livePoll\\intervue.io\\backend\\src\\socket\\handlers\\studentHandler.js:27:22)","timestamp":"2025-07-05 17:40:20"}
+{"level":"info","message":"Vote submitted: Ashitosh voted for \"a\" in poll 686915fe0992068650d14f02","service":"live-polling-backend","timestamp":"2025-07-05 17:40:24"}
+{"level":"info","message":"Vote submitted: Ashitosh voted for \"a\" in poll 686915fe0992068650d14f02","service":"live-polling-backend","timestamp":"2025-07-05 17:40:24"}
+{"level":"info","message":"Active poll cleared","service":"live-polling-backend","timestamp":"2025-07-05 17:40:31"}
+{"level":"info","message":"Poll votes cleared for: 686915fe0992068650d14f02","service":"live-polling-backend","timestamp":"2025-07-05 17:40:31"}
+{"level":"info","message":"Poll ended: 686915fe0992068650d14f02","service":"live-polling-backend","timestamp":"2025-07-05 17:40:31"}
+{"level":"info","message":"Timer stopped for poll 686915fe0992068650d14f02","service":"live-polling-backend","timestamp":"2025-07-05 17:40:31"}
+{"level":"info","message":"All students vote status reset","service":"live-polling-backend","timestamp":"2025-07-05 17:40:31"}
+{"level":"info","message":"Poll ended by teacher: 686915fe0992068650d14f02","service":"live-polling-backend","timestamp":"2025-07-05 17:40:31"}
+{"level":"info","message":"Active poll set: 6869164a0992068650d14f0c","service":"live-polling-backend","timestamp":"2025-07-05 17:40:50"}
+{"level":"info","message":"Poll votes initialized for: 6869164a0992068650d14f0c","service":"live-polling-backend","timestamp":"2025-07-05 17:40:50"}
+{"level":"info","message":"Poll created: 6869164a0992068650d14f0c by k-QreYORGjTPAGcxAAAH","service":"live-polling-backend","timestamp":"2025-07-05 17:40:50"}
+{"level":"info","message":"Timer started for poll 6869164a0992068650d14f0c: 60 seconds","service":"live-polling-backend","timestamp":"2025-07-05 17:40:50"}
+{"level":"info","message":"Poll created and broadcasted: 6869164a0992068650d14f0c","service":"live-polling-backend","timestamp":"2025-07-05 17:40:50"}
+{"level":"info","message":"Vote submitted: Ashitosh voted for \"q\" in poll 6869164a0992068650d14f0c","service":"live-polling-backend","timestamp":"2025-07-05 17:40:59"}
+{"level":"info","message":"Vote submitted: Ashitosh voted for \"q\" in poll 6869164a0992068650d14f0c","service":"live-polling-backend","timestamp":"2025-07-05 17:40:59"}
+{"level":"info","message":"Vote submitted: Saurabh kale voted for \"a\" in poll 6869164a0992068650d14f0c","service":"live-polling-backend","timestamp":"2025-07-05 17:41:03"}
+{"level":"info","message":"Vote submitted: Saurabh kale voted for \"a\" in poll 6869164a0992068650d14f0c","service":"live-polling-backend","timestamp":"2025-07-05 17:41:03"}
+{"level":"info","message":"Active poll cleared","service":"live-polling-backend","timestamp":"2025-07-05 17:41:16"}
+{"level":"info","message":"Poll votes cleared for: 6869164a0992068650d14f0c","service":"live-polling-backend","timestamp":"2025-07-05 17:41:16"}
+{"level":"info","message":"Poll ended: 6869164a0992068650d14f0c","service":"live-polling-backend","timestamp":"2025-07-05 17:41:16"}
+{"level":"info","message":"Timer stopped for poll 6869164a0992068650d14f0c","service":"live-polling-backend","timestamp":"2025-07-05 17:41:16"}
+{"level":"info","message":"All students vote status reset","service":"live-polling-backend","timestamp":"2025-07-05 17:41:16"}
+{"level":"info","message":"Poll ended by teacher: 6869164a0992068650d14f0c","service":"live-polling-backend","timestamp":"2025-07-05 17:41:16"}
+{"level":"error","message":"Error getting poll history: object is not iterable (cannot read property Symbol(Symbol.iterator))","service":"live-polling-backend","stack":"TypeError: object is not iterable (cannot read property Symbol(Symbol.iterator))\n    at Function.fromEntries (<anonymous>)\n    at C:\\Users\\Admin\\Downloads\\projects\\livePoll\\intervue.io\\backend\\src\\services\\pollService.js:236:40\n    at Array.map (<anonymous>)\n    at PollService.getPollHistory (C:\\Users\\Admin\\Downloads\\projects\\livePoll\\intervue.io\\backend\\src\\services\\pollService.js:233:20)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async TeacherHandler.handleGetHistory (C:\\Users\\Admin\\Downloads\\projects\\livePoll\\intervue.io\\backend\\src\\socket\\handlers\\teacherHandler.js:190:27)","timestamp":"2025-07-05 17:41:24"}
+{"level":"error","message":"Error getting poll history: object is not iterable (cannot read property Symbol(Symbol.iterator))","service":"live-polling-backend","stack":"TypeError: object is not iterable (cannot read property Symbol(Symbol.iterator))\n    at Function.fromEntries (<anonymous>)\n    at C:\\Users\\Admin\\Downloads\\projects\\livePoll\\intervue.io\\backend\\src\\services\\pollService.js:236:40\n    at Array.map (<anonymous>)\n    at PollService.getPollHistory (C:\\Users\\Admin\\Downloads\\projects\\livePoll\\intervue.io\\backend\\src\\services\\pollService.js:233:20)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async TeacherHandler.handleGetHistory (C:\\Users\\Admin\\Downloads\\projects\\livePoll\\intervue.io\\backend\\src\\socket\\handlers\\teacherHandler.js:190:27)","timestamp":"2025-07-05 17:41:24"}
+{"level":"info","message":"✅ MongoDB connected successfully","service":"live-polling-backend","timestamp":"2025-07-05 17:46:01"}
+{"level":"info","message":"🔄 Redis connecting...","service":"live-polling-backend","timestamp":"2025-07-05 17:46:01"}
+{"level":"info","message":"✅ Redis connected successfully","service":"live-polling-backend","timestamp":"2025-07-05 17:46:01"}
+{"level":"info","message":"✅ Socket.io server configured","service":"live-polling-backend","timestamp":"2025-07-05 17:46:01"}
+{"level":"info","message":"🚀 Server running on port 3001","service":"live-polling-backend","timestamp":"2025-07-05 17:46:01"}
+{"level":"info","message":"📊 Environment: development","service":"live-polling-backend","timestamp":"2025-07-05 17:46:01"}
+{"level":"info","message":"🌐 CORS enabled for: http://localhost:3000","service":"live-polling-backend","timestamp":"2025-07-05 17:46:01"}
+{"level":"info","message":"New socket connection: rNp8HLrXp3aWuRQ9AAAB","service":"live-polling-backend","timestamp":"2025-07-05 17:46:02"}
+{"level":"info","message":"Socket rNp8HLrXp3aWuRQ9AAAB connected and joined main room","service":"live-polling-backend","timestamp":"2025-07-05 17:46:02"}
+{"level":"info","message":"New socket connection: n5-bEsBhiuVQ0MYhAAAD","service":"live-polling-backend","timestamp":"2025-07-05 17:46:02"}
+{"level":"info","message":"Socket n5-bEsBhiuVQ0MYhAAAD connected and joined main room","service":"live-polling-backend","timestamp":"2025-07-05 17:46:02"}
+{"level":"info","message":"New socket connection: Fo5AxeTWwqX_0Q3tAAAF","service":"live-polling-backend","timestamp":"2025-07-05 17:46:03"}
+{"level":"info","message":"Socket Fo5AxeTWwqX_0Q3tAAAF connected and joined main room","service":"live-polling-backend","timestamp":"2025-07-05 17:46:03"}
+{"level":"info","message":"Active poll set: 6869179c1746015fab08a9f3","service":"live-polling-backend","timestamp":"2025-07-05 17:46:28"}
+{"level":"info","message":"Poll votes initialized for: 6869179c1746015fab08a9f3","service":"live-polling-backend","timestamp":"2025-07-05 17:46:28"}
+{"level":"info","message":"Poll created: 6869179c1746015fab08a9f3 by rNp8HLrXp3aWuRQ9AAAB","service":"live-polling-backend","timestamp":"2025-07-05 17:46:28"}
+{"level":"info","message":"Timer started for poll 6869179c1746015fab08a9f3: 60 seconds","service":"live-polling-backend","timestamp":"2025-07-05 17:46:28"}
+{"level":"info","message":"Poll created and broadcasted: 6869179c1746015fab08a9f3","service":"live-polling-backend","timestamp":"2025-07-05 17:46:28"}
+{"level":"info","message":"Vote submitted: Ashitosh voted for \"a\" in poll 6869179c1746015fab08a9f3","service":"live-polling-backend","timestamp":"2025-07-05 17:46:34"}
+{"level":"info","message":"Vote submitted: Ashitosh voted for \"a\" in poll 6869179c1746015fab08a9f3","service":"live-polling-backend","timestamp":"2025-07-05 17:46:34"}
+{"level":"info","message":"Vote submitted: Saurabh kale voted for \"b\" in poll 6869179c1746015fab08a9f3","service":"live-polling-backend","timestamp":"2025-07-05 17:46:49"}
+{"level":"info","message":"Vote submitted: Saurabh kale voted for \"b\" in poll 6869179c1746015fab08a9f3","service":"live-polling-backend","timestamp":"2025-07-05 17:46:49"}
+{"level":"info","message":"Timer stopped for poll 6869179c1746015fab08a9f3","service":"live-polling-backend","timestamp":"2025-07-05 17:47:28"}
+{"level":"info","message":"Timer completed for poll 6869179c1746015fab08a9f3","service":"live-polling-backend","timestamp":"2025-07-05 17:47:28"}
+{"level":"info","message":"Active poll cleared","service":"live-polling-backend","timestamp":"2025-07-05 17:47:28"}
+{"level":"info","message":"Poll votes cleared for: 6869179c1746015fab08a9f3","service":"live-polling-backend","timestamp":"2025-07-05 17:47:28"}
+{"level":"info","message":"Poll ended: 6869179c1746015fab08a9f3","service":"live-polling-backend","timestamp":"2025-07-05 17:47:28"}
+{"level":"info","message":"All students vote status reset","service":"live-polling-backend","timestamp":"2025-07-05 17:47:28"}
+{"level":"info","message":"Active poll set: 686919431746015fab08aa03","service":"live-polling-backend","timestamp":"2025-07-05 17:53:31"}
+{"level":"info","message":"Poll votes initialized for: 686919431746015fab08aa03","service":"live-polling-backend","timestamp":"2025-07-05 17:53:31"}
+{"level":"info","message":"Poll created: 686919431746015fab08aa03 by rNp8HLrXp3aWuRQ9AAAB","service":"live-polling-backend","timestamp":"2025-07-05 17:53:31"}
+{"level":"info","message":"Timer started for poll 686919431746015fab08aa03: 60 seconds","service":"live-polling-backend","timestamp":"2025-07-05 17:53:31"}
+{"level":"info","message":"Poll created and broadcasted: 686919431746015fab08aa03","service":"live-polling-backend","timestamp":"2025-07-05 17:53:31"}
+{"level":"info","message":"Vote submitted: Ashitosh voted for \"a\" in poll 686919431746015fab08aa03","service":"live-polling-backend","timestamp":"2025-07-05 17:53:37"}
+{"level":"info","message":"Vote submitted: Ashitosh voted for \"a\" in poll 686919431746015fab08aa03","service":"live-polling-backend","timestamp":"2025-07-05 17:53:37"}
+{"level":"info","message":"Vote submitted: Saurabh kale voted for \"b\" in poll 686919431746015fab08aa03","service":"live-polling-backend","timestamp":"2025-07-05 17:53:45"}
+{"level":"info","message":"Vote submitted: Saurabh kale voted for \"b\" in poll 686919431746015fab08aa03","service":"live-polling-backend","timestamp":"2025-07-05 17:53:45"}
+{"level":"info","message":"Timer stopped for poll 686919431746015fab08aa03","service":"live-polling-backend","timestamp":"2025-07-05 17:54:31"}
+{"level":"info","message":"Timer completed for poll 686919431746015fab08aa03","service":"live-polling-backend","timestamp":"2025-07-05 17:54:31"}
+{"level":"info","message":"Active poll cleared","service":"live-polling-backend","timestamp":"2025-07-05 17:54:32"}
+{"level":"info","message":"Poll votes cleared for: 686919431746015fab08aa03","service":"live-polling-backend","timestamp":"2025-07-05 17:54:32"}
+{"level":"info","message":"Poll ended: 686919431746015fab08aa03","service":"live-polling-backend","timestamp":"2025-07-05 17:54:32"}
+{"level":"info","message":"All students vote status reset","service":"live-polling-backend","timestamp":"2025-07-05 17:54:32"}
+{"level":"info","message":"Socket rNp8HLrXp3aWuRQ9AAAB disconnected: transport close","service":"live-polling-backend","timestamp":"2025-07-05 17:54:33"}
+{"level":"info","message":"New socket connection: Wr7Srupu1chxagVvAAAI","service":"live-polling-backend","timestamp":"2025-07-05 17:54:33"}
+{"level":"info","message":"Socket Wr7Srupu1chxagVvAAAI connected and joined main room","service":"live-polling-backend","timestamp":"2025-07-05 17:54:33"}
+{"level":"info","message":"Teacher session set: Wr7Srupu1chxagVvAAAI","service":"live-polling-backend","timestamp":"2025-07-05 17:54:33"}
+{"level":"info","message":"Teacher joined: Wr7Srupu1chxagVvAAAI","service":"live-polling-backend","timestamp":"2025-07-05 17:54:33"}
+{"level":"info","message":"Active poll set: 686919b61746015fab08aa0f","service":"live-polling-backend","timestamp":"2025-07-05 17:55:26"}
+{"level":"info","message":"Poll votes initialized for: 686919b61746015fab08aa0f","service":"live-polling-backend","timestamp":"2025-07-05 17:55:26"}
+{"level":"info","message":"Poll created: 686919b61746015fab08aa0f by Wr7Srupu1chxagVvAAAI","service":"live-polling-backend","timestamp":"2025-07-05 17:55:26"}
+{"level":"info","message":"Timer started for poll 686919b61746015fab08aa0f: 60 seconds","service":"live-polling-backend","timestamp":"2025-07-05 17:55:26"}
+{"level":"info","message":"Poll created and broadcasted: 686919b61746015fab08aa0f","service":"live-polling-backend","timestamp":"2025-07-05 17:55:26"}
+{"level":"info","message":"Vote submitted: Ashitosh voted for \"cd\" in poll 686919b61746015fab08aa0f","service":"live-polling-backend","timestamp":"2025-07-05 17:55:40"}
+{"level":"info","message":"Vote submitted: Ashitosh voted for \"cd\" in poll 686919b61746015fab08aa0f","service":"live-polling-backend","timestamp":"2025-07-05 17:55:40"}
+{"level":"info","message":"Vote submitted: Saurabh kale voted for \"cd\" in poll 686919b61746015fab08aa0f","service":"live-polling-backend","timestamp":"2025-07-05 17:55:45"}
+{"level":"info","message":"Vote submitted: Saurabh kale voted for \"cd\" in poll 686919b61746015fab08aa0f","service":"live-polling-backend","timestamp":"2025-07-05 17:55:45"}
+{"level":"info","message":"Active poll cleared","service":"live-polling-backend","timestamp":"2025-07-05 17:56:14"}
+{"level":"info","message":"Poll votes cleared for: 686919b61746015fab08aa0f","service":"live-polling-backend","timestamp":"2025-07-05 17:56:14"}
+{"level":"info","message":"Poll ended: 686919b61746015fab08aa0f","service":"live-polling-backend","timestamp":"2025-07-05 17:56:14"}
+{"level":"info","message":"Timer stopped for poll 686919b61746015fab08aa0f","service":"live-polling-backend","timestamp":"2025-07-05 17:56:14"}
+{"level":"info","message":"All students vote status reset","service":"live-polling-backend","timestamp":"2025-07-05 17:56:14"}
+{"level":"info","message":"Poll ended by teacher: 686919b61746015fab08aa0f","service":"live-polling-backend","timestamp":"2025-07-05 17:56:14"}
+{"level":"info","message":"Teacher session set: Wr7Srupu1chxagVvAAAI","service":"live-polling-backend","timestamp":"2025-07-05 18:08:42"}
+{"level":"info","message":"Teacher joined: Wr7Srupu1chxagVvAAAI","service":"live-polling-backend","timestamp":"2025-07-05 18:08:42"}
+{"level":"info","message":"Active poll set: 68691cf31746015fab08aa19","service":"live-polling-backend","timestamp":"2025-07-05 18:09:15"}
+{"level":"info","message":"Poll votes initialized for: 68691cf31746015fab08aa19","service":"live-polling-backend","timestamp":"2025-07-05 18:09:15"}
+{"level":"info","message":"Poll created: 68691cf31746015fab08aa19 by Wr7Srupu1chxagVvAAAI","service":"live-polling-backend","timestamp":"2025-07-05 18:09:15"}
+{"level":"info","message":"Timer started for poll 68691cf31746015fab08aa19: 60 seconds","service":"live-polling-backend","timestamp":"2025-07-05 18:09:15"}
+{"level":"info","message":"Poll created and broadcasted: 68691cf31746015fab08aa19","service":"live-polling-backend","timestamp":"2025-07-05 18:09:15"}
+{"level":"info","message":"Vote submitted: Ashitosh voted for \"paris\" in poll 68691cf31746015fab08aa19","service":"live-polling-backend","timestamp":"2025-07-05 18:09:21"}
+{"level":"info","message":"Vote submitted: Ashitosh voted for \"paris\" in poll 68691cf31746015fab08aa19","service":"live-polling-backend","timestamp":"2025-07-05 18:09:21"}
+{"level":"info","message":"Vote submitted: Saurabh kale voted for \"frna\" in poll 68691cf31746015fab08aa19","service":"live-polling-backend","timestamp":"2025-07-05 18:09:40"}
+{"level":"info","message":"Vote submitted: Saurabh kale voted for \"frna\" in poll 68691cf31746015fab08aa19","service":"live-polling-backend","timestamp":"2025-07-05 18:09:40"}
+{"level":"info","message":"Active poll cleared","service":"live-polling-backend","timestamp":"2025-07-05 18:09:44"}
+{"level":"info","message":"Poll votes cleared for: 68691cf31746015fab08aa19","service":"live-polling-backend","timestamp":"2025-07-05 18:09:44"}
+{"level":"info","message":"Poll ended: 68691cf31746015fab08aa19","service":"live-polling-backend","timestamp":"2025-07-05 18:09:44"}
+{"level":"info","message":"Timer stopped for poll 68691cf31746015fab08aa19","service":"live-polling-backend","timestamp":"2025-07-05 18:09:44"}
+{"level":"info","message":"All students vote status reset","service":"live-polling-backend","timestamp":"2025-07-05 18:09:44"}
+{"level":"info","message":"Poll ended by teacher: 68691cf31746015fab08aa19","service":"live-polling-backend","timestamp":"2025-07-05 18:09:44"}
+{"level":"info","message":"Teacher session set: Wr7Srupu1chxagVvAAAI","service":"live-polling-backend","timestamp":"2025-07-05 18:10:03"}
+{"level":"info","message":"Teacher joined: Wr7Srupu1chxagVvAAAI","service":"live-polling-backend","timestamp":"2025-07-05 18:10:03"}
+{"level":"info","message":"Teacher session set: Wr7Srupu1chxagVvAAAI","service":"live-polling-backend","timestamp":"2025-07-05 18:10:03"}
+{"level":"info","message":"Teacher joined: Wr7Srupu1chxagVvAAAI","service":"live-polling-backend","timestamp":"2025-07-05 18:10:03"}
+{"level":"info","message":"Active poll set: 68691d491746015fab08aa23","service":"live-polling-backend","timestamp":"2025-07-05 18:10:41"}
+{"level":"info","message":"Poll votes initialized for: 68691d491746015fab08aa23","service":"live-polling-backend","timestamp":"2025-07-05 18:10:41"}
+{"level":"info","message":"Poll created: 68691d491746015fab08aa23 by Wr7Srupu1chxagVvAAAI","service":"live-polling-backend","timestamp":"2025-07-05 18:10:41"}
+{"level":"info","message":"Timer started for poll 68691d491746015fab08aa23: 60 seconds","service":"live-polling-backend","timestamp":"2025-07-05 18:10:41"}
+{"level":"info","message":"Poll created and broadcasted: 68691d491746015fab08aa23","service":"live-polling-backend","timestamp":"2025-07-05 18:10:41"}
+{"level":"info","message":"Vote submitted: Ashitosh voted for \"vb\" in poll 68691d491746015fab08aa23","service":"live-polling-backend","timestamp":"2025-07-05 18:10:47"}
+{"level":"info","message":"Vote submitted: Ashitosh voted for \"vb\" in poll 68691d491746015fab08aa23","service":"live-polling-backend","timestamp":"2025-07-05 18:10:47"}
+{"level":"info","message":"Vote submitted: Saurabh kale voted for \"a\" in poll 68691d491746015fab08aa23","service":"live-polling-backend","timestamp":"2025-07-05 18:10:51"}
+{"level":"info","message":"Vote submitted: Saurabh kale voted for \"a\" in poll 68691d491746015fab08aa23","service":"live-polling-backend","timestamp":"2025-07-05 18:10:51"}
+{"level":"info","message":"Active poll cleared","service":"live-polling-backend","timestamp":"2025-07-05 18:11:01"}
+{"level":"info","message":"Poll votes cleared for: 68691d491746015fab08aa23","service":"live-polling-backend","timestamp":"2025-07-05 18:11:01"}
+{"level":"info","message":"Poll ended: 68691d491746015fab08aa23","service":"live-polling-backend","timestamp":"2025-07-05 18:11:01"}
+{"level":"info","message":"Timer stopped for poll 68691d491746015fab08aa23","service":"live-polling-backend","timestamp":"2025-07-05 18:11:01"}
+{"level":"info","message":"All students vote status reset","service":"live-polling-backend","timestamp":"2025-07-05 18:11:01"}
+{"level":"info","message":"Poll ended by teacher: 68691d491746015fab08aa23","service":"live-polling-backend","timestamp":"2025-07-05 18:11:01"}
+{"level":"info","message":"Teacher session set: Wr7Srupu1chxagVvAAAI","service":"live-polling-backend","timestamp":"2025-07-05 18:11:10"}
+{"level":"info","message":"Teacher session set: Wr7Srupu1chxagVvAAAI","service":"live-polling-backend","timestamp":"2025-07-05 18:11:10"}
+{"level":"info","message":"Teacher joined: Wr7Srupu1chxagVvAAAI","service":"live-polling-backend","timestamp":"2025-07-05 18:11:10"}
+{"level":"info","message":"Teacher joined: Wr7Srupu1chxagVvAAAI","service":"live-polling-backend","timestamp":"2025-07-05 18:11:10"}
+{"level":"info","message":"Teacher session set: Wr7Srupu1chxagVvAAAI","service":"live-polling-backend","timestamp":"2025-07-05 18:16:41"}
+{"level":"info","message":"Teacher joined: Wr7Srupu1chxagVvAAAI","service":"live-polling-backend","timestamp":"2025-07-05 18:16:41"}
+{"level":"info","message":"Teacher session set: Wr7Srupu1chxagVvAAAI","service":"live-polling-backend","timestamp":"2025-07-05 18:16:44"}
+{"level":"info","message":"Teacher joined: Wr7Srupu1chxagVvAAAI","service":"live-polling-backend","timestamp":"2025-07-05 18:16:44"}
+{"level":"info","message":"Socket Fo5AxeTWwqX_0Q3tAAAF disconnected: client namespace disconnect","service":"live-polling-backend","timestamp":"2025-07-05 18:18:01"}
+{"level":"info","message":"Socket Wr7Srupu1chxagVvAAAI disconnected: client namespace disconnect","service":"live-polling-backend","timestamp":"2025-07-05 18:18:01"}
+{"level":"warn","message":"Teacher disconnected","service":"live-polling-backend","timestamp":"2025-07-05 18:18:01"}
+{"level":"info","message":"New socket connection: XyTqJedjN9EZ2SI9AAAN","service":"live-polling-backend","timestamp":"2025-07-05 18:18:01"}
+{"level":"info","message":"Socket XyTqJedjN9EZ2SI9AAAN connected and joined main room","service":"live-polling-backend","timestamp":"2025-07-05 18:18:01"}
+{"level":"info","message":"New socket connection: f4KFa85-zZXNsLzuAAAO","service":"live-polling-backend","timestamp":"2025-07-05 18:18:01"}
+{"level":"info","message":"Socket f4KFa85-zZXNsLzuAAAO connected and joined main room","service":"live-polling-backend","timestamp":"2025-07-05 18:18:01"}
+{"level":"error","message":"Error joining session: This name is already taken. Please choose a different name.","service":"live-polling-backend","stack":"Error: This name is already taken. Please choose a different name.\n    at StudentService.joinSession (C:\\Users\\Admin\\Downloads\\projects\\livePoll\\intervue.io\\backend\\src\\services\\studentService.js:18:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async StudentHandler.handleStudentJoin (C:\\Users\\Admin\\Downloads\\projects\\livePoll\\intervue.io\\backend\\src\\socket\\handlers\\studentHandler.js:27:22)","timestamp":"2025-07-05 18:18:01"}
+{"level":"error","message":"Error handling student join: This name is already taken. Please choose a different name.","service":"live-polling-backend","stack":"Error: This name is already taken. Please choose a different name.\n    at StudentService.joinSession (C:\\Users\\Admin\\Downloads\\projects\\livePoll\\intervue.io\\backend\\src\\services\\studentService.js:18:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async StudentHandler.handleStudentJoin (C:\\Users\\Admin\\Downloads\\projects\\livePoll\\intervue.io\\backend\\src\\socket\\handlers\\studentHandler.js:27:22)","timestamp":"2025-07-05 18:18:01"}
+{"level":"info","message":"Teacher session set: f4KFa85-zZXNsLzuAAAO","service":"live-polling-backend","timestamp":"2025-07-05 18:18:01"}
+{"level":"info","message":"Teacher joined: f4KFa85-zZXNsLzuAAAO","service":"live-polling-backend","timestamp":"2025-07-05 18:18:01"}
+{"level":"info","message":"Teacher session set: f4KFa85-zZXNsLzuAAAO","service":"live-polling-backend","timestamp":"2025-07-05 18:18:29"}
+{"level":"info","message":"Teacher joined: f4KFa85-zZXNsLzuAAAO","service":"live-polling-backend","timestamp":"2025-07-05 18:18:29"}
+{"level":"info","message":"Active poll set: 68691f971746015fab08aa2d","service":"live-polling-backend","timestamp":"2025-07-05 18:20:31"}
+{"level":"info","message":"Poll votes initialized for: 68691f971746015fab08aa2d","service":"live-polling-backend","timestamp":"2025-07-05 18:20:31"}
+{"level":"info","message":"Poll created: 68691f971746015fab08aa2d by f4KFa85-zZXNsLzuAAAO","service":"live-polling-backend","timestamp":"2025-07-05 18:20:31"}
+{"level":"info","message":"Timer started for poll 68691f971746015fab08aa2d: 60 seconds","service":"live-polling-backend","timestamp":"2025-07-05 18:20:31"}
+{"level":"info","message":"Poll created and broadcasted: 68691f971746015fab08aa2d","service":"live-polling-backend","timestamp":"2025-07-05 18:20:31"}
+{"level":"info","message":"Vote submitted: Ashitosh voted for \"no\" in poll 68691f971746015fab08aa2d","service":"live-polling-backend","timestamp":"2025-07-05 18:20:43"}
+{"level":"info","message":"Vote submitted: Ashitosh voted for \"no\" in poll 68691f971746015fab08aa2d","service":"live-polling-backend","timestamp":"2025-07-05 18:20:43"}
+{"level":"info","message":"Vote submitted: Saurabh kale voted for \"yes\" in poll 68691f971746015fab08aa2d","service":"live-polling-backend","timestamp":"2025-07-05 18:21:02"}
+{"level":"info","message":"Vote submitted: Saurabh kale voted for \"yes\" in poll 68691f971746015fab08aa2d","service":"live-polling-backend","timestamp":"2025-07-05 18:21:02"}
+{"level":"info","message":"Active poll cleared","service":"live-polling-backend","timestamp":"2025-07-05 18:21:07"}
+{"level":"info","message":"Poll votes cleared for: 68691f971746015fab08aa2d","service":"live-polling-backend","timestamp":"2025-07-05 18:21:07"}
+{"level":"info","message":"Poll ended: 68691f971746015fab08aa2d","service":"live-polling-backend","timestamp":"2025-07-05 18:21:07"}
+{"level":"info","message":"Timer stopped for poll 68691f971746015fab08aa2d","service":"live-polling-backend","timestamp":"2025-07-05 18:21:07"}
+{"level":"info","message":"All students vote status reset","service":"live-polling-backend","timestamp":"2025-07-05 18:21:07"}
+{"level":"info","message":"Poll ended by teacher: 68691f971746015fab08aa2d","service":"live-polling-backend","timestamp":"2025-07-05 18:21:07"}
+{"level":"info","message":"Socket f4KFa85-zZXNsLzuAAAO disconnected: client namespace disconnect","service":"live-polling-backend","timestamp":"2025-07-05 18:24:07"}
+{"level":"info","message":"Socket XyTqJedjN9EZ2SI9AAAN disconnected: client namespace disconnect","service":"live-polling-backend","timestamp":"2025-07-05 18:24:07"}
+{"level":"warn","message":"Teacher disconnected","service":"live-polling-backend","timestamp":"2025-07-05 18:24:07"}
+{"level":"info","message":"New socket connection: H3PzbxS7sU-ov-J8AAAT","service":"live-polling-backend","timestamp":"2025-07-05 18:24:07"}
+{"level":"info","message":"New socket connection: hQHz87OqeMp440E9AAAU","service":"live-polling-backend","timestamp":"2025-07-05 18:24:07"}
+{"level":"info","message":"Socket H3PzbxS7sU-ov-J8AAAT connected and joined main room","service":"live-polling-backend","timestamp":"2025-07-05 18:24:07"}
+{"level":"info","message":"Socket hQHz87OqeMp440E9AAAU connected and joined main room","service":"live-polling-backend","timestamp":"2025-07-05 18:24:07"}
+{"level":"info","message":"Teacher session set: H3PzbxS7sU-ov-J8AAAT","service":"live-polling-backend","timestamp":"2025-07-05 18:24:07"}
+{"level":"info","message":"Teacher joined: H3PzbxS7sU-ov-J8AAAT","service":"live-polling-backend","timestamp":"2025-07-05 18:24:07"}
+{"level":"error","message":"Error joining session: This name is already taken. Please choose a different name.","service":"live-polling-backend","stack":"Error: This name is already taken. Please choose a different name.\n    at StudentService.joinSession (C:\\Users\\Admin\\Downloads\\projects\\livePoll\\intervue.io\\backend\\src\\services\\studentService.js:18:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async StudentHandler.handleStudentJoin (C:\\Users\\Admin\\Downloads\\projects\\livePoll\\intervue.io\\backend\\src\\socket\\handlers\\studentHandler.js:27:22)","timestamp":"2025-07-05 18:24:07"}
+{"level":"error","message":"Error handling student join: This name is already taken. Please choose a different name.","service":"live-polling-backend","stack":"Error: This name is already taken. Please choose a different name.\n    at StudentService.joinSession (C:\\Users\\Admin\\Downloads\\projects\\livePoll\\intervue.io\\backend\\src\\services\\studentService.js:18:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async StudentHandler.handleStudentJoin (C:\\Users\\Admin\\Downloads\\projects\\livePoll\\intervue.io\\backend\\src\\socket\\handlers\\studentHandler.js:27:22)","timestamp":"2025-07-05 18:24:07"}
+{"level":"info","message":"Active poll set: 686920961746015fab08aa35","service":"live-polling-backend","timestamp":"2025-07-05 18:24:46"}
+{"level":"info","message":"Poll votes initialized for: 686920961746015fab08aa35","service":"live-polling-backend","timestamp":"2025-07-05 18:24:46"}
+{"level":"info","message":"Poll created: 686920961746015fab08aa35 by H3PzbxS7sU-ov-J8AAAT","service":"live-polling-backend","timestamp":"2025-07-05 18:24:46"}
+{"level":"info","message":"Timer started for poll 686920961746015fab08aa35: 60 seconds","service":"live-polling-backend","timestamp":"2025-07-05 18:24:46"}
+{"level":"info","message":"Poll created and broadcasted: 686920961746015fab08aa35","service":"live-polling-backend","timestamp":"2025-07-05 18:24:46"}
+{"level":"info","message":"Vote submitted: Saurabh kale voted for \"vf\" in poll 686920961746015fab08aa35","service":"live-polling-backend","timestamp":"2025-07-05 18:24:56"}
+{"level":"info","message":"Vote submitted: Saurabh kale voted for \"vf\" in poll 686920961746015fab08aa35","service":"live-polling-backend","timestamp":"2025-07-05 18:24:56"}
+{"level":"info","message":"Vote submitted: Ashitosh voted for \"a\" in poll 686920961746015fab08aa35","service":"live-polling-backend","timestamp":"2025-07-05 18:25:02"}
+{"level":"info","message":"Vote submitted: Ashitosh voted for \"a\" in poll 686920961746015fab08aa35","service":"live-polling-backend","timestamp":"2025-07-05 18:25:02"}
+{"level":"info","message":"Active poll cleared","service":"live-polling-backend","timestamp":"2025-07-05 18:25:16"}
+{"level":"info","message":"Poll votes cleared for: 686920961746015fab08aa35","service":"live-polling-backend","timestamp":"2025-07-05 18:25:16"}
+{"level":"info","message":"Poll ended: 686920961746015fab08aa35","service":"live-polling-backend","timestamp":"2025-07-05 18:25:16"}
+{"level":"info","message":"Timer stopped for poll 686920961746015fab08aa35","service":"live-polling-backend","timestamp":"2025-07-05 18:25:16"}
+{"level":"info","message":"All students vote status reset","service":"live-polling-backend","timestamp":"2025-07-05 18:25:16"}
+{"level":"info","message":"Poll ended by teacher: 686920961746015fab08aa35","service":"live-polling-backend","timestamp":"2025-07-05 18:25:16"}
+{"level":"info","message":"Active poll set: 686920cd1746015fab08aa3d","service":"live-polling-backend","timestamp":"2025-07-05 18:25:41"}
+{"level":"info","message":"Poll votes initialized for: 686920cd1746015fab08aa3d","service":"live-polling-backend","timestamp":"2025-07-05 18:25:41"}
+{"level":"info","message":"Poll created: 686920cd1746015fab08aa3d by H3PzbxS7sU-ov-J8AAAT","service":"live-polling-backend","timestamp":"2025-07-05 18:25:41"}
+{"level":"info","message":"Timer started for poll 686920cd1746015fab08aa3d: 60 seconds","service":"live-polling-backend","timestamp":"2025-07-05 18:25:41"}
+{"level":"info","message":"Poll created and broadcasted: 686920cd1746015fab08aa3d","service":"live-polling-backend","timestamp":"2025-07-05 18:25:41"}
+{"level":"info","message":"Vote submitted: Ashitosh voted for \"great\" in poll 686920cd1746015fab08aa3d","service":"live-polling-backend","timestamp":"2025-07-05 18:25:46"}
+{"level":"info","message":"Vote submitted: Ashitosh voted for \"great\" in poll 686920cd1746015fab08aa3d","service":"live-polling-backend","timestamp":"2025-07-05 18:25:46"}
+{"level":"info","message":"Vote submitted: Saurabh kale voted for \"bad\" in poll 686920cd1746015fab08aa3d","service":"live-polling-backend","timestamp":"2025-07-05 18:26:28"}
+{"level":"info","message":"Vote submitted: Saurabh kale voted for \"bad\" in poll 686920cd1746015fab08aa3d","service":"live-polling-backend","timestamp":"2025-07-05 18:26:28"}
+{"level":"info","message":"Active poll cleared","service":"live-polling-backend","timestamp":"2025-07-05 18:26:37"}
+{"level":"info","message":"Poll votes cleared for: 686920cd1746015fab08aa3d","service":"live-polling-backend","timestamp":"2025-07-05 18:26:37"}
+{"level":"info","message":"Poll ended: 686920cd1746015fab08aa3d","service":"live-polling-backend","timestamp":"2025-07-05 18:26:37"}
+{"level":"info","message":"Timer stopped for poll 686920cd1746015fab08aa3d","service":"live-polling-backend","timestamp":"2025-07-05 18:26:37"}
+{"level":"info","message":"All students vote status reset","service":"live-polling-backend","timestamp":"2025-07-05 18:26:37"}
+{"level":"info","message":"Poll ended by teacher: 686920cd1746015fab08aa3d","service":"live-polling-backend","timestamp":"2025-07-05 18:26:37"}

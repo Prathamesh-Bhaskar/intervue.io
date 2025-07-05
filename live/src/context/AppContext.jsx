@@ -1,4 +1,4 @@
- // ===================================================================
+// ===================================================================
 // context/AppContext.jsx
 // ===================================================================
 import React, { createContext, useContext, useReducer } from 'react'
@@ -15,7 +15,8 @@ const initialState = {
   timeRemaining: 0,
   pollHistory: [],
   chatMessages: [],
-  isChatOpen: false
+  isChatOpen: false,
+  teacherDashboardView: 'create' // Add this new state
 }
 
 function appReducer(state, action) {
@@ -54,6 +55,19 @@ function appReducer(state, action) {
     
     case 'SET_POLL_HISTORY':
       return { ...state, pollHistory: action.payload }
+    
+    case 'SET_TEACHER_DASHBOARD_VIEW':
+      return { ...state, teacherDashboardView: action.payload }
+    
+    case 'RESET_POLL_AND_GO_TO_CREATE':
+      return { 
+        ...state, 
+        currentPoll: null, 
+        hasVoted: false, 
+        timeRemaining: 0,
+        pollResults: {},
+        teacherDashboardView: 'create'
+      }
     
     case 'RESET_POLL':
       return { 

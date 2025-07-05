@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useEffect } from 'react'
 import { useApp } from '../../../context/AppContext'
 import { useSocket } from '../../../context/SocketContext'
 import Header from '../../common/Header/Header'
@@ -9,10 +9,9 @@ import Chat from '../../common/Chat/Chat'
 import styles from './TeacherDashboard.module.css'
 
 const TeacherDashboard = () => {
-  const [currentView, setCurrentView] = useState('create') // 'create', 'results', 'history'
-  const { state } = useApp()
+  const { state, dispatch } = useApp()
   const { socket } = useSocket()
-  const { currentPoll } = state
+  const { currentPoll, teacherDashboardView } = state
 
   useEffect(() => {
     // Join as teacher when component mounts
@@ -22,14 +21,21 @@ const TeacherDashboard = () => {
   }, [socket])
 
   useEffect(() => {
-    // Switch to results view when a poll is active
+    // Switch to results view when a poll is active, or back to create when poll ends
     if (currentPoll) {
-      setCurrentView('results')
+      dispatch({ type: 'SET_TEACHER_DASHBOARD_VIEW', payload: 'results' })
+    } else if (teacherDashboardView === 'results') {
+      // If we're on results view but no active poll, switch to create
+      dispatch({ type: 'SET_TEACHER_DASHBOARD_VIEW', payload: 'create' })
     }
-  }, [currentPoll])
+  }, [currentPoll, dispatch, teacherDashboardView])
+
+  const handleViewChange = (view) => {
+    dispatch({ type: 'SET_TEACHER_DASHBOARD_VIEW', payload: view })
+  }
 
   const renderContent = () => {
-    switch (currentView) {
+    switch (teacherDashboardView) {
       case 'create':
         return <CreatePoll />
       case 'results':
@@ -49,21 +55,21 @@ const TeacherDashboard = () => {
         <div className={styles.sidebar}>
           <nav className={styles.nav}>
             <button
-              className={`${styles.navItem} ${currentView === 'create' ? styles.active : ''}`}
-              onClick={() => setCurrentView('create')}
+              className={`${styles.navItem} ${teacherDashboardView === 'create' ? styles.active : ''}`}
+              onClick={() => handleViewChange('create')}
             >
               Create Poll
             </button>
             <button
-              className={`${styles.navItem} ${currentView === 'results' ? styles.active : ''}`}
-              onClick={() => setCurrentView('results')}
+              className={`${styles.navItem} ${teacherDashboardView === 'results' ? styles.active : ''}`}
+              onClick={() => handleViewChange('results')}
               disabled={!currentPoll}
             >
               Live Results
             </button>
             <button
-              className={`${styles.navItem} ${currentView === 'history' ? styles.active : ''}`}
-              onClick={() => setCurrentView('history')}
+              className={`${styles.navItem} ${teacherDashboardView === 'history' ? styles.active : ''}`}
+              onClick={() => handleViewChange('history')}
             >
               Poll History
             </button>

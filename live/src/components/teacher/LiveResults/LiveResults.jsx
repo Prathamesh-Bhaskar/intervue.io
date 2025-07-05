@@ -1,31 +1,39 @@
 import React, { useState } from 'react'
 import { useApp } from '../../../context/AppContext'
 import { useSocket } from '../../../context/SocketContext'
-import { useNavigate } from 'react-router-dom'
 import PollResults from '../../common/PollResults/PollResults'
 import styles from './LiveResults.module.css'
 
 const LiveResults = () => {
   const { state, dispatch } = useApp()
   const { socket } = useSocket()
-  const { currentPoll, pollResults } = state
-  const navigate = useNavigate()
+  const { currentPoll, pollResults, connectedStudents } = state
   const [showWarning, setShowWarning] = useState(false)
 
   const handleNewQuestion = () => {
-    // Defensive: support both pollResults shape
-    const voterCount = pollResults.voterCount ?? 0
-    const connectedStudents = pollResults.connectedStudents ?? 0
+    // Check if all connected students have submitted their votes
+    // Handle different possible data structures for pollResults
+    const voterCount = pollResults.voterCount ?? pollResults.totalVotes ?? 0
+    const totalConnectedStudents = pollResults.connectedStudents ?? connectedStudents.length
 
-    if (connectedStudents > 0 && voterCount < connectedStudents) {
+    console.log('Checking votes:', { voterCount, totalConnectedStudents, pollResults })
+
+    // If there are connected students but not all have voted, show warning
+    if (totalConnectedStudents > 0 && voterCount < totalConnectedStudents) {
       setShowWarning(true)
       return
     }
-    // All students have answered, end poll and redirect
+
+    // Hide warning if it was shown before
+    setShowWarning(false)
+
+    // All students have answered (or no students connected), end poll and redirect to create
     socket?.emit('teacher:end_poll', (response) => {
       if (response?.success) {
-        dispatch({ type: 'RESET_POLL' })
-        navigate('/teacher/create-poll')
+        // Reset poll and navigate to create view atomically
+        dispatch({ type: 'RESET_POLL_AND_GO_TO_CREATE' })
+      } else {
+        console.error('Failed to end poll:', response)
       }
     })
   }
@@ -50,9 +58,10 @@ const LiveResults = () => {
           + Ask a new question
         </button>
       </div>
+      
       {showWarning && (
-        <div style={{ color: 'red', marginTop: 12, fontWeight: 500 }}>
-          Not all students have answered yet!
+        <div className={styles.warning}>
+          Not all students have answered yet! ({pollResults.voterCount ?? pollResults.totalVotes ?? 0}/{pollResults.connectedStudents ?? connectedStudents.length} students have voted)
         </div>
       )}
     </div>
