@@ -1,0 +1,251 @@
+{"level":"info","message":"✅ MongoDB connected successfully","service":"live-polling-backend","timestamp":"2025-07-05 10:39:37"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis connection error:","service":"live-polling-backend","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1139:18)\n    at afterConnectMultiple (node:net:1712:7)","timestamp":"2025-07-05 10:39:37"}
+{"level":"info","message":"🔄 Redis reconnecting...","service":"live-polling-backend","timestamp":"2025-07-05 10:39:37"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis connection error:","service":"live-polling-backend","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1139:18)\n    at afterConnectMultiple (node:net:1712:7)","timestamp":"2025-07-05 10:39:37"}
+{"level":"info","message":"🔄 Redis reconnecting...","service":"live-polling-backend","timestamp":"2025-07-05 10:39:37"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis connection error:","service":"live-polling-backend","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1139:18)\n    at afterConnectMultiple (node:net:1712:7)","timestamp":"2025-07-05 10:39:37"}
+{"level":"info","message":"🔄 Redis reconnecting...","service":"live-polling-backend","timestamp":"2025-07-05 10:39:38"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis connection error:","service":"live-polling-backend","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1139:18)\n    at afterConnectMultiple (node:net:1712:7)","timestamp":"2025-07-05 10:39:38"}
+{"level":"info","message":"🔄 Redis reconnecting...","service":"live-polling-backend","timestamp":"2025-07-05 10:39:38"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis connection error:","service":"live-polling-backend","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1139:18)\n    at afterConnectMultiple (node:net:1712:7)","timestamp":"2025-07-05 10:39:38"}
+{"level":"info","message":"🔄 Redis reconnecting...","service":"live-polling-backend","timestamp":"2025-07-05 10:39:39"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis connection error:","service":"live-polling-backend","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1139:18)\n    at afterConnectMultiple (node:net:1712:7)","timestamp":"2025-07-05 10:39:39"}
+{"level":"info","message":"🔄 Redis reconnecting...","service":"live-polling-backend","timestamp":"2025-07-05 10:39:41"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis connection error:","service":"live-polling-backend","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1139:18)\n    at afterConnectMultiple (node:net:1712:7)","timestamp":"2025-07-05 10:39:41"}
+{"level":"info","message":"🔄 Redis reconnecting...","service":"live-polling-backend","timestamp":"2025-07-05 10:39:43"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis connection error:","service":"live-polling-backend","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1139:18)\n    at afterConnectMultiple (node:net:1712:7)","timestamp":"2025-07-05 10:39:43"}
+{"level":"info","message":"🔄 Redis reconnecting...","service":"live-polling-backend","timestamp":"2025-07-05 10:39:45"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis connection error:","service":"live-polling-backend","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1139:18)\n    at afterConnectMultiple (node:net:1712:7)","timestamp":"2025-07-05 10:39:45"}
+{"level":"info","message":"🔄 Redis reconnecting...","service":"live-polling-backend","timestamp":"2025-07-05 10:39:47"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis connection error:","service":"live-polling-backend","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1139:18)\n    at afterConnectMultiple (node:net:1712:7)","timestamp":"2025-07-05 10:39:47"}
+{"level":"info","message":"🔄 Redis reconnecting...","service":"live-polling-backend","timestamp":"2025-07-05 10:39:49"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis connection error:","service":"live-polling-backend","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1139:18)\n    at afterConnectMultiple (node:net:1712:7)","timestamp":"2025-07-05 10:39:49"}
+{"level":"info","message":"🔄 Redis reconnecting...","service":"live-polling-backend","timestamp":"2025-07-05 10:39:51"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis connection error:","service":"live-polling-backend","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1139:18)\n    at afterConnectMultiple (node:net:1712:7)","timestamp":"2025-07-05 10:39:51"}
+{"level":"info","message":"🔄 Redis reconnecting...","service":"live-polling-backend","timestamp":"2025-07-05 10:39:53"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis connection error:","service":"live-polling-backend","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1139:18)\n    at afterConnectMultiple (node:net:1712:7)","timestamp":"2025-07-05 10:39:53"}
+{"level":"info","message":"🔄 Redis reconnecting...","service":"live-polling-backend","timestamp":"2025-07-05 10:39:56"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis connection error:","service":"live-polling-backend","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1139:18)\n    at afterConnectMultiple (node:net:1712:7)","timestamp":"2025-07-05 10:39:56"}
+{"level":"info","message":"🔄 Redis reconnecting...","service":"live-polling-backend","timestamp":"2025-07-05 10:39:58"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis connection error:","service":"live-polling-backend","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1139:18)\n    at afterConnectMultiple (node:net:1712:7)","timestamp":"2025-07-05 10:39:58"}
+{"level":"info","message":"✅ MongoDB connected successfully","service":"live-polling-backend","timestamp":"2025-07-05 10:40:52"}
+{"level":"info","message":"🔄 Redis connecting...","service":"live-polling-backend","timestamp":"2025-07-05 10:40:52"}
+{"level":"error","message":"Redis connection error: ERR AUTH <password> called without any password configured for the default user. Are you sure your configuration is correct?","service":"live-polling-backend","timestamp":"2025-07-05 10:40:52"}
+{"level":"info","message":"🔄 Redis reconnecting...","service":"live-polling-backend","timestamp":"2025-07-05 10:40:52"}
+{"level":"info","message":"🔄 Redis connecting...","service":"live-polling-backend","timestamp":"2025-07-05 10:40:52"}
+{"level":"error","message":"Redis connection error: ERR AUTH <password> called without any password configured for the default user. Are you sure your configuration is correct?","service":"live-polling-backend","timestamp":"2025-07-05 10:40:52"}
+{"level":"info","message":"🔄 Redis reconnecting...","service":"live-polling-backend","timestamp":"2025-07-05 10:40:52"}
+{"level":"info","message":"🔄 Redis connecting...","service":"live-polling-backend","timestamp":"2025-07-05 10:40:52"}
+{"level":"error","message":"Redis connection error: ERR AUTH <password> called without any password configured for the default user. Are you sure your configuration is correct?","service":"live-polling-backend","timestamp":"2025-07-05 10:40:52"}
+{"level":"info","message":"🔄 Redis reconnecting...","service":"live-polling-backend","timestamp":"2025-07-05 10:40:52"}
+{"level":"info","message":"🔄 Redis connecting...","service":"live-polling-backend","timestamp":"2025-07-05 10:40:52"}
+{"level":"error","message":"Redis connection error: ERR AUTH <password> called without any password configured for the default user. Are you sure your configuration is correct?","service":"live-polling-backend","timestamp":"2025-07-05 10:40:52"}
+{"level":"info","message":"🔄 Redis reconnecting...","service":"live-polling-backend","timestamp":"2025-07-05 10:40:53"}
+{"level":"info","message":"🔄 Redis connecting...","service":"live-polling-backend","timestamp":"2025-07-05 10:40:53"}
+{"level":"error","message":"Redis connection error: ERR AUTH <password> called without any password configured for the default user. Are you sure your configuration is correct?","service":"live-polling-backend","timestamp":"2025-07-05 10:40:53"}
+{"level":"info","message":"🔄 Redis reconnecting...","service":"live-polling-backend","timestamp":"2025-07-05 10:40:54"}
+{"level":"info","message":"🔄 Redis connecting...","service":"live-polling-backend","timestamp":"2025-07-05 10:40:54"}
+{"level":"error","message":"Redis connection error: ERR AUTH <password> called without any password configured for the default user. Are you sure your configuration is correct?","service":"live-polling-backend","timestamp":"2025-07-05 10:40:54"}
+{"level":"info","message":"🔄 Redis reconnecting...","service":"live-polling-backend","timestamp":"2025-07-05 10:40:56"}
+{"level":"info","message":"🔄 Redis connecting...","service":"live-polling-backend","timestamp":"2025-07-05 10:40:56"}
+{"level":"error","message":"Redis connection error: ERR AUTH <password> called without any password configured for the default user. Are you sure your configuration is correct?","service":"live-polling-backend","timestamp":"2025-07-05 10:40:56"}
+{"level":"info","message":"🔄 Redis reconnecting...","service":"live-polling-backend","timestamp":"2025-07-05 10:40:58"}
+{"level":"info","message":"🔄 Redis connecting...","service":"live-polling-backend","timestamp":"2025-07-05 10:40:58"}
+{"level":"error","message":"Redis connection error: ERR AUTH <password> called without any password configured for the default user. Are you sure your configuration is correct?","service":"live-polling-backend","timestamp":"2025-07-05 10:40:58"}
+{"level":"info","message":"🔄 Redis reconnecting...","service":"live-polling-backend","timestamp":"2025-07-05 10:41:00"}
+{"level":"info","message":"🔄 Redis connecting...","service":"live-polling-backend","timestamp":"2025-07-05 10:41:00"}
+{"level":"error","message":"Redis connection error: ERR AUTH <password> called without any password configured for the default user. Are you sure your configuration is correct?","service":"live-polling-backend","timestamp":"2025-07-05 10:41:00"}
+{"level":"info","message":"🔄 Redis reconnecting...","service":"live-polling-backend","timestamp":"2025-07-05 10:41:02"}
+{"level":"info","message":"🔄 Redis connecting...","service":"live-polling-backend","timestamp":"2025-07-05 10:41:02"}
+{"level":"error","message":"Redis connection error: ERR AUTH <password> called without any password configured for the default user. Are you sure your configuration is correct?","service":"live-polling-backend","timestamp":"2025-07-05 10:41:02"}
+{"level":"info","message":"🔄 Redis reconnecting...","service":"live-polling-backend","timestamp":"2025-07-05 10:41:04"}
+{"level":"info","message":"🔄 Redis connecting...","service":"live-polling-backend","timestamp":"2025-07-05 10:41:04"}
+{"level":"error","message":"Redis connection error: ERR AUTH <password> called without any password configured for the default user. Are you sure your configuration is correct?","service":"live-polling-backend","timestamp":"2025-07-05 10:41:04"}
+{"level":"info","message":"🔄 Redis reconnecting...","service":"live-polling-backend","timestamp":"2025-07-05 10:41:07"}
+{"level":"info","message":"🔄 Redis connecting...","service":"live-polling-backend","timestamp":"2025-07-05 10:41:07"}
+{"level":"error","message":"Redis connection error: ERR AUTH <password> called without any password configured for the default user. Are you sure your configuration is correct?","service":"live-polling-backend","timestamp":"2025-07-05 10:41:07"}
+{"level":"info","message":"🔄 Redis reconnecting...","service":"live-polling-backend","timestamp":"2025-07-05 10:41:09"}
+{"level":"info","message":"🔄 Redis connecting...","service":"live-polling-backend","timestamp":"2025-07-05 10:41:09"}
+{"level":"error","message":"Redis connection error: ERR AUTH <password> called without any password configured for the default user. Are you sure your configuration is correct?","service":"live-polling-backend","timestamp":"2025-07-05 10:41:09"}
+{"level":"info","message":"🔄 Redis reconnecting...","service":"live-polling-backend","timestamp":"2025-07-05 10:41:11"}
+{"level":"info","message":"🔄 Redis connecting...","service":"live-polling-backend","timestamp":"2025-07-05 10:41:11"}
+{"level":"error","message":"Redis connection error: ERR AUTH <password> called without any password configured for the default user. Are you sure your configuration is correct?","service":"live-polling-backend","timestamp":"2025-07-05 10:41:11"}
+{"level":"info","message":"✅ MongoDB connected successfully","service":"live-polling-backend","timestamp":"2025-07-05 10:41:42"}
+{"level":"info","message":"🔄 Redis connecting...","service":"live-polling-backend","timestamp":"2025-07-05 10:41:42"}
+{"level":"info","message":"✅ Redis connected successfully","service":"live-polling-backend","timestamp":"2025-07-05 10:41:42"}
+{"level":"info","message":"✅ Socket.io server configured","service":"live-polling-backend","timestamp":"2025-07-05 10:41:42"}
+{"level":"info","message":"🚀 Server running on port 3001","service":"live-polling-backend","timestamp":"2025-07-05 10:41:42"}
+{"level":"info","message":"📊 Environment: development","service":"live-polling-backend","timestamp":"2025-07-05 10:41:42"}
+{"level":"info","message":"🌐 CORS enabled for: http://localhost:3000","service":"live-polling-backend","timestamp":"2025-07-05 10:41:42"}
+{"level":"warn","message":"CORS blocked origin: http://localhost:5173","service":"live-polling-backend","timestamp":"2025-07-05 10:42:43"}
+{"level":"warn","message":"CORS blocked origin: http://localhost:5173","service":"live-polling-backend","timestamp":"2025-07-05 10:42:43"}
+{"level":"warn","message":"CORS blocked origin: http://localhost:5173","service":"live-polling-backend","timestamp":"2025-07-05 10:42:45"}
+{"level":"warn","message":"CORS blocked origin: http://localhost:5173","service":"live-polling-backend","timestamp":"2025-07-05 10:42:46"}
+{"level":"warn","message":"CORS blocked origin: http://localhost:5173","service":"live-polling-backend","timestamp":"2025-07-05 10:42:50"}
+{"level":"warn","message":"CORS blocked origin: http://localhost:5173","service":"live-polling-backend","timestamp":"2025-07-05 10:42:55"}
+{"level":"warn","message":"CORS blocked origin: http://localhost:5173","service":"live-polling-backend","timestamp":"2025-07-05 10:43:00"}
+{"level":"warn","message":"CORS blocked origin: http://localhost:5173","service":"live-polling-backend","timestamp":"2025-07-05 10:43:05"}
+{"level":"warn","message":"CORS blocked origin: http://localhost:5173","service":"live-polling-backend","timestamp":"2025-07-05 10:43:10"}
+{"level":"warn","message":"CORS blocked origin: http://localhost:5173","service":"live-polling-backend","timestamp":"2025-07-05 10:43:15"}
+{"level":"warn","message":"CORS blocked origin: http://localhost:5173","service":"live-polling-backend","timestamp":"2025-07-05 10:43:20"}
+{"level":"warn","message":"CORS blocked origin: http://localhost:5173","service":"live-polling-backend","timestamp":"2025-07-05 10:43:25"}
+{"level":"warn","message":"CORS blocked origin: http://localhost:5173","service":"live-polling-backend","timestamp":"2025-07-05 10:43:30"}
+{"level":"warn","message":"CORS blocked origin: http://localhost:5173","service":"live-polling-backend","timestamp":"2025-07-05 10:43:35"}
+{"level":"warn","message":"CORS blocked origin: http://localhost:5173","service":"live-polling-backend","timestamp":"2025-07-05 10:43:41"}
+{"level":"warn","message":"CORS blocked origin: http://localhost:5173","service":"live-polling-backend","timestamp":"2025-07-05 10:43:47"}
+{"level":"warn","message":"CORS blocked origin: http://localhost:5173","service":"live-polling-backend","timestamp":"2025-07-05 10:43:53"}
+{"level":"warn","message":"CORS blocked origin: http://localhost:5173","service":"live-polling-backend","timestamp":"2025-07-05 10:43:59"}
+{"level":"info","message":"✅ MongoDB connected successfully","service":"live-polling-backend","timestamp":"2025-07-05 10:45:13"}
+{"level":"info","message":"🔄 Redis connecting...","service":"live-polling-backend","timestamp":"2025-07-05 10:45:13"}
+{"level":"info","message":"✅ Redis connected successfully","service":"live-polling-backend","timestamp":"2025-07-05 10:45:13"}
+{"level":"info","message":"✅ Socket.io server configured","service":"live-polling-backend","timestamp":"2025-07-05 10:45:13"}
+{"level":"info","message":"🚀 Server running on port 3001","service":"live-polling-backend","timestamp":"2025-07-05 10:45:13"}
+{"level":"info","message":"📊 Environment: development","service":"live-polling-backend","timestamp":"2025-07-05 10:45:13"}
+{"level":"info","message":"🌐 CORS enabled for: http://localhost:3000","service":"live-polling-backend","timestamp":"2025-07-05 10:45:13"}
+{"level":"warn","message":"CORS blocked origin: http://localhost:5173","service":"live-polling-backend","timestamp":"2025-07-05 10:45:16"}
+{"level":"warn","message":"CORS blocked origin: http://localhost:5173","service":"live-polling-backend","timestamp":"2025-07-05 10:45:19"}
+{"level":"warn","message":"CORS blocked origin: http://localhost:5173","service":"live-polling-backend","timestamp":"2025-07-05 10:45:19"}
+{"level":"warn","message":"CORS blocked origin: http://localhost:5173","service":"live-polling-backend","timestamp":"2025-07-05 10:45:21"}
+{"level":"warn","message":"CORS blocked origin: http://localhost:5173","service":"live-polling-backend","timestamp":"2025-07-05 10:45:22"}
+{"level":"warn","message":"CORS blocked origin: http://localhost:5173","service":"live-polling-backend","timestamp":"2025-07-05 10:45:28"}
+{"level":"warn","message":"CORS blocked origin: http://localhost:5173","service":"live-polling-backend","timestamp":"2025-07-05 10:45:34"}
+{"level":"warn","message":"CORS blocked origin: http://localhost:5173","service":"live-polling-backend","timestamp":"2025-07-05 10:45:40"}
+{"level":"warn","message":"CORS blocked origin: http://localhost:5173","service":"live-polling-backend","timestamp":"2025-07-05 10:45:46"}
+{"level":"warn","message":"CORS blocked origin: http://localhost:5173","service":"live-polling-backend","timestamp":"2025-07-05 10:45:52"}
+{"level":"info","message":"✅ MongoDB connected successfully","service":"live-polling-backend","timestamp":"2025-07-05 10:45:57"}
+{"level":"info","message":"🔄 Redis connecting...","service":"live-polling-backend","timestamp":"2025-07-05 10:45:58"}
+{"level":"info","message":"✅ Redis connected successfully","service":"live-polling-backend","timestamp":"2025-07-05 10:45:58"}
+{"level":"info","message":"✅ Socket.io server configured","service":"live-polling-backend","timestamp":"2025-07-05 10:45:58"}
+{"level":"info","message":"🚀 Server running on port 3001","service":"live-polling-backend","timestamp":"2025-07-05 10:45:58"}
+{"level":"info","message":"📊 Environment: development","service":"live-polling-backend","timestamp":"2025-07-05 10:45:58"}
+{"level":"info","message":"🌐 CORS enabled for: http://localhost:3000","service":"live-polling-backend","timestamp":"2025-07-05 10:45:58"}
+{"level":"info","message":"New socket connection: faT6s1QigJkjKqo-AAAB","service":"live-polling-backend","timestamp":"2025-07-05 10:45:58"}
+{"level":"info","message":"Socket faT6s1QigJkjKqo-AAAB connected and joined main room","service":"live-polling-backend","timestamp":"2025-07-05 10:45:58"}
+{"level":"info","message":"Student added: Prathamesh (faT6s1QigJkjKqo-AAAB)","service":"live-polling-backend","timestamp":"2025-07-05 10:45:58"}
+{"level":"info","message":"Student joined: Prathamesh (faT6s1QigJkjKqo-AAAB)","service":"live-polling-backend","timestamp":"2025-07-05 10:45:58"}
+{"level":"info","message":"Student joined: Prathamesh (faT6s1QigJkjKqo-AAAB)","service":"live-polling-backend","timestamp":"2025-07-05 10:45:58"}
+{"level":"error","message":"Error joining session: This name is already taken. Please choose a different name.","service":"live-polling-backend","stack":"Error: This name is already taken. Please choose a different name.\n    at StudentService.joinSession (C:\\Users\\Admin\\Downloads\\projects\\live-poll\\backend\\src\\services\\studentService.js:18:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async StudentHandler.handleStudentJoin (C:\\Users\\Admin\\Downloads\\projects\\live-poll\\backend\\src\\socket\\handlers\\studentHandler.js:27:22)","timestamp":"2025-07-05 10:45:58"}
+{"level":"error","message":"Error joining session: This name is already taken. Please choose a different name.","service":"live-polling-backend","stack":"Error: This name is already taken. Please choose a different name.\n    at StudentService.joinSession (C:\\Users\\Admin\\Downloads\\projects\\live-poll\\backend\\src\\services\\studentService.js:18:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async StudentHandler.handleStudentJoin (C:\\Users\\Admin\\Downloads\\projects\\live-poll\\backend\\src\\socket\\handlers\\studentHandler.js:27:22)","timestamp":"2025-07-05 10:45:58"}
+{"level":"error","message":"Error handling student join: This name is already taken. Please choose a different name.","service":"live-polling-backend","stack":"Error: This name is already taken. Please choose a different name.\n    at StudentService.joinSession (C:\\Users\\Admin\\Downloads\\projects\\live-poll\\backend\\src\\services\\studentService.js:18:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async StudentHandler.handleStudentJoin (C:\\Users\\Admin\\Downloads\\projects\\live-poll\\backend\\src\\socket\\handlers\\studentHandler.js:27:22)","timestamp":"2025-07-05 10:45:58"}
+{"level":"error","message":"Error handling student join: This name is already taken. Please choose a different name.","service":"live-polling-backend","stack":"Error: This name is already taken. Please choose a different name.\n    at StudentService.joinSession (C:\\Users\\Admin\\Downloads\\projects\\live-poll\\backend\\src\\services\\studentService.js:18:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async StudentHandler.handleStudentJoin (C:\\Users\\Admin\\Downloads\\projects\\live-poll\\backend\\src\\socket\\handlers\\studentHandler.js:27:22)","timestamp":"2025-07-05 10:45:58"}
+{"level":"info","message":"New socket connection: i02l9oZUr1CnwU7MAAAE","service":"live-polling-backend","timestamp":"2025-07-05 10:46:36"}
+{"level":"info","message":"Socket i02l9oZUr1CnwU7MAAAE connected and joined main room","service":"live-polling-backend","timestamp":"2025-07-05 10:46:36"}
+{"level":"info","message":"Teacher session set: i02l9oZUr1CnwU7MAAAE","service":"live-polling-backend","timestamp":"2025-07-05 10:46:40"}
+{"level":"info","message":"Teacher session set: i02l9oZUr1CnwU7MAAAE","service":"live-polling-backend","timestamp":"2025-07-05 10:46:40"}
+{"level":"info","message":"Teacher joined: i02l9oZUr1CnwU7MAAAE","service":"live-polling-backend","timestamp":"2025-07-05 10:46:40"}
+{"level":"info","message":"Teacher joined: i02l9oZUr1CnwU7MAAAE","service":"live-polling-backend","timestamp":"2025-07-05 10:46:40"}
+{"level":"info","message":"Active poll set: 6868b54c5bed3e146578b4bd","service":"live-polling-backend","timestamp":"2025-07-05 10:47:00"}
+{"level":"info","message":"Poll votes initialized for: 6868b54c5bed3e146578b4bd","service":"live-polling-backend","timestamp":"2025-07-05 10:47:00"}
+{"level":"info","message":"Poll created: 6868b54c5bed3e146578b4bd by i02l9oZUr1CnwU7MAAAE","service":"live-polling-backend","timestamp":"2025-07-05 10:47:00"}
+{"level":"info","message":"Timer started for poll 6868b54c5bed3e146578b4bd: 60 seconds","service":"live-polling-backend","timestamp":"2025-07-05 10:47:00"}
+{"level":"info","message":"Poll created and broadcasted: 6868b54c5bed3e146578b4bd","service":"live-polling-backend","timestamp":"2025-07-05 10:47:00"}
+{"level":"info","message":"Vote submitted: Prathamesh voted for \"fine\" in poll 6868b54c5bed3e146578b4bd","service":"live-polling-backend","timestamp":"2025-07-05 10:47:12"}
+{"level":"info","message":"Vote submitted: Prathamesh voted for \"fine\" in poll 6868b54c5bed3e146578b4bd","service":"live-polling-backend","timestamp":"2025-07-05 10:47:12"}
+{"level":"info","message":"Timer stopped for poll 6868b54c5bed3e146578b4bd","service":"live-polling-backend","timestamp":"2025-07-05 10:48:01"}
+{"level":"info","message":"Timer completed for poll 6868b54c5bed3e146578b4bd","service":"live-polling-backend","timestamp":"2025-07-05 10:48:01"}
+{"level":"info","message":"Active poll cleared","service":"live-polling-backend","timestamp":"2025-07-05 10:48:01"}
+{"level":"info","message":"Poll votes cleared for: 6868b54c5bed3e146578b4bd","service":"live-polling-backend","timestamp":"2025-07-05 10:48:01"}
+{"level":"info","message":"Poll ended: 6868b54c5bed3e146578b4bd","service":"live-polling-backend","timestamp":"2025-07-05 10:48:01"}
+{"level":"info","message":"All students vote status reset","service":"live-polling-backend","timestamp":"2025-07-05 10:48:01"}
+{"level":"info","message":"New socket connection: cYnOxWFGgf3iYIDoAAAH","service":"live-polling-backend","timestamp":"2025-07-05 10:52:39"}
+{"level":"info","message":"Socket cYnOxWFGgf3iYIDoAAAH connected and joined main room","service":"live-polling-backend","timestamp":"2025-07-05 10:52:39"}
+{"level":"info","message":"Student added: Saurabh kale (cYnOxWFGgf3iYIDoAAAH)","service":"live-polling-backend","timestamp":"2025-07-05 10:52:47"}
+{"level":"info","message":"Student joined: Saurabh kale (cYnOxWFGgf3iYIDoAAAH)","service":"live-polling-backend","timestamp":"2025-07-05 10:52:47"}
+{"level":"info","message":"Student joined: Saurabh kale (cYnOxWFGgf3iYIDoAAAH)","service":"live-polling-backend","timestamp":"2025-07-05 10:52:47"}
+{"level":"error","message":"Error joining session: This name is already taken. Please choose a different name.","service":"live-polling-backend","stack":"Error: This name is already taken. Please choose a different name.\n    at StudentService.joinSession (C:\\Users\\Admin\\Downloads\\projects\\live-poll\\backend\\src\\services\\studentService.js:18:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async StudentHandler.handleStudentJoin (C:\\Users\\Admin\\Downloads\\projects\\live-poll\\backend\\src\\socket\\handlers\\studentHandler.js:27:22)","timestamp":"2025-07-05 10:52:47"}
+{"level":"error","message":"Error joining session: This name is already taken. Please choose a different name.","service":"live-polling-backend","stack":"Error: This name is already taken. Please choose a different name.\n    at StudentService.joinSession (C:\\Users\\Admin\\Downloads\\projects\\live-poll\\backend\\src\\services\\studentService.js:18:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async StudentHandler.handleStudentJoin (C:\\Users\\Admin\\Downloads\\projects\\live-poll\\backend\\src\\socket\\handlers\\studentHandler.js:27:22)","timestamp":"2025-07-05 10:52:47"}
+{"level":"error","message":"Error handling student join: This name is already taken. Please choose a different name.","service":"live-polling-backend","stack":"Error: This name is already taken. Please choose a different name.\n    at StudentService.joinSession (C:\\Users\\Admin\\Downloads\\projects\\live-poll\\backend\\src\\services\\studentService.js:18:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async StudentHandler.handleStudentJoin (C:\\Users\\Admin\\Downloads\\projects\\live-poll\\backend\\src\\socket\\handlers\\studentHandler.js:27:22)","timestamp":"2025-07-05 10:52:47"}
+{"level":"error","message":"Error handling student join: This name is already taken. Please choose a different name.","service":"live-polling-backend","stack":"Error: This name is already taken. Please choose a different name.\n    at StudentService.joinSession (C:\\Users\\Admin\\Downloads\\projects\\live-poll\\backend\\src\\services\\studentService.js:18:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async StudentHandler.handleStudentJoin (C:\\Users\\Admin\\Downloads\\projects\\live-poll\\backend\\src\\socket\\handlers\\studentHandler.js:27:22)","timestamp":"2025-07-05 10:52:47"}
+{"level":"info","message":"Chat message sent: Teacher (teacher)","service":"live-polling-backend","timestamp":"2025-07-05 10:53:05"}
+{"level":"info","message":"Chat message sent: Teacher (teacher): hii","service":"live-polling-backend","timestamp":"2025-07-05 10:53:05"}
+{"level":"error","message":"Error getting poll history: object is not iterable (cannot read property Symbol(Symbol.iterator))","service":"live-polling-backend","stack":"TypeError: object is not iterable (cannot read property Symbol(Symbol.iterator))\n    at Function.fromEntries (<anonymous>)\n    at C:\\Users\\Admin\\Downloads\\projects\\live-poll\\backend\\src\\services\\pollService.js:236:40\n    at Array.map (<anonymous>)\n    at PollService.getPollHistory (C:\\Users\\Admin\\Downloads\\projects\\live-poll\\backend\\src\\services\\pollService.js:233:20)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async TeacherHandler.handleGetHistory (C:\\Users\\Admin\\Downloads\\projects\\live-poll\\backend\\src\\socket\\handlers\\teacherHandler.js:190:27)","timestamp":"2025-07-05 10:54:47"}
+{"level":"error","message":"Error getting poll history: object is not iterable (cannot read property Symbol(Symbol.iterator))","service":"live-polling-backend","stack":"TypeError: object is not iterable (cannot read property Symbol(Symbol.iterator))\n    at Function.fromEntries (<anonymous>)\n    at C:\\Users\\Admin\\Downloads\\projects\\live-poll\\backend\\src\\services\\pollService.js:236:40\n    at Array.map (<anonymous>)\n    at PollService.getPollHistory (C:\\Users\\Admin\\Downloads\\projects\\live-poll\\backend\\src\\services\\pollService.js:233:20)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async TeacherHandler.handleGetHistory (C:\\Users\\Admin\\Downloads\\projects\\live-poll\\backend\\src\\socket\\handlers\\teacherHandler.js:190:27)","timestamp":"2025-07-05 10:54:47"}
+{"level":"info","message":"Active poll set: 6868b7a75bed3e146578b4ce","service":"live-polling-backend","timestamp":"2025-07-05 10:57:03"}
+{"level":"info","message":"Poll votes initialized for: 6868b7a75bed3e146578b4ce","service":"live-polling-backend","timestamp":"2025-07-05 10:57:03"}
+{"level":"info","message":"Poll created: 6868b7a75bed3e146578b4ce by i02l9oZUr1CnwU7MAAAE","service":"live-polling-backend","timestamp":"2025-07-05 10:57:03"}
+{"level":"info","message":"Timer started for poll 6868b7a75bed3e146578b4ce: 60 seconds","service":"live-polling-backend","timestamp":"2025-07-05 10:57:03"}
+{"level":"info","message":"Poll created and broadcasted: 6868b7a75bed3e146578b4ce","service":"live-polling-backend","timestamp":"2025-07-05 10:57:03"}
+{"level":"info","message":"Vote submitted: Saurabh kale voted for \"b) Rome\" in poll 6868b7a75bed3e146578b4ce","service":"live-polling-backend","timestamp":"2025-07-05 10:57:12"}
+{"level":"info","message":"Vote submitted: Saurabh kale voted for \"b) Rome\" in poll 6868b7a75bed3e146578b4ce","service":"live-polling-backend","timestamp":"2025-07-05 10:57:12"}
+{"level":"info","message":"Active poll cleared","service":"live-polling-backend","timestamp":"2025-07-05 10:57:59"}
+{"level":"info","message":"Poll votes cleared for: 6868b7a75bed3e146578b4ce","service":"live-polling-backend","timestamp":"2025-07-05 10:57:59"}
+{"level":"info","message":"Poll ended: 6868b7a75bed3e146578b4ce","service":"live-polling-backend","timestamp":"2025-07-05 10:57:59"}
+{"level":"info","message":"Timer stopped for poll 6868b7a75bed3e146578b4ce","service":"live-polling-backend","timestamp":"2025-07-05 10:57:59"}
+{"level":"info","message":"All students vote status reset","service":"live-polling-backend","timestamp":"2025-07-05 10:57:59"}
+{"level":"info","message":"Poll ended by teacher: 6868b7a75bed3e146578b4ce","service":"live-polling-backend","timestamp":"2025-07-05 10:57:59"}
+{"level":"info","message":"Active poll set: 6868b8065bed3e146578b4d6","service":"live-polling-backend","timestamp":"2025-07-05 10:58:38"}
+{"level":"info","message":"Poll votes initialized for: 6868b8065bed3e146578b4d6","service":"live-polling-backend","timestamp":"2025-07-05 10:58:38"}
+{"level":"info","message":"Poll created: 6868b8065bed3e146578b4d6 by i02l9oZUr1CnwU7MAAAE","service":"live-polling-backend","timestamp":"2025-07-05 10:58:38"}
+{"level":"info","message":"Timer started for poll 6868b8065bed3e146578b4d6: 60 seconds","service":"live-polling-backend","timestamp":"2025-07-05 10:58:38"}
+{"level":"info","message":"Poll created and broadcasted: 6868b8065bed3e146578b4d6","service":"live-polling-backend","timestamp":"2025-07-05 10:58:38"}
+{"level":"info","message":"Vote submitted: Saurabh kale voted for \"a) London\" in poll 6868b8065bed3e146578b4d6","service":"live-polling-backend","timestamp":"2025-07-05 10:58:44"}
+{"level":"info","message":"Vote submitted: Saurabh kale voted for \"a) London\" in poll 6868b8065bed3e146578b4d6","service":"live-polling-backend","timestamp":"2025-07-05 10:58:44"}
+{"level":"info","message":"Active poll cleared","service":"live-polling-backend","timestamp":"2025-07-05 10:58:48"}
+{"level":"info","message":"Poll votes cleared for: 6868b8065bed3e146578b4d6","service":"live-polling-backend","timestamp":"2025-07-05 10:58:48"}
+{"level":"info","message":"Poll ended: 6868b8065bed3e146578b4d6","service":"live-polling-backend","timestamp":"2025-07-05 10:58:48"}
+{"level":"info","message":"Timer stopped for poll 6868b8065bed3e146578b4d6","service":"live-polling-backend","timestamp":"2025-07-05 10:58:48"}
+{"level":"info","message":"All students vote status reset","service":"live-polling-backend","timestamp":"2025-07-05 10:58:48"}
+{"level":"info","message":"Poll ended by teacher: 6868b8065bed3e146578b4d6","service":"live-polling-backend","timestamp":"2025-07-05 10:58:48"}
+{"level":"info","message":"Socket faT6s1QigJkjKqo-AAAB disconnected: transport close","service":"live-polling-backend","timestamp":"2025-07-05 11:16:53"}
+{"level":"info","message":"Socket i02l9oZUr1CnwU7MAAAE disconnected: transport close","service":"live-polling-backend","timestamp":"2025-07-05 11:16:53"}
+{"level":"info","message":"Socket cYnOxWFGgf3iYIDoAAAH disconnected: transport close","service":"live-polling-backend","timestamp":"2025-07-05 11:16:53"}
+{"level":"warn","message":"Teacher disconnected","service":"live-polling-backend","timestamp":"2025-07-05 11:16:53"}
+{"level":"info","message":"Student removed: Prathamesh (faT6s1QigJkjKqo-AAAB)","service":"live-polling-backend","timestamp":"2025-07-05 11:16:53"}
+{"level":"info","message":"Student removed: Saurabh kale (cYnOxWFGgf3iYIDoAAAH)","service":"live-polling-backend","timestamp":"2025-07-05 11:16:53"}
+{"level":"info","message":"Student left: Saurabh kale (cYnOxWFGgf3iYIDoAAAH)","service":"live-polling-backend","timestamp":"2025-07-05 11:16:54"}
+{"level":"info","message":"Student left: Prathamesh (faT6s1QigJkjKqo-AAAB)","service":"live-polling-backend","timestamp":"2025-07-05 11:16:54"}
+{"level":"info","message":"Student Saurabh kale disconnected and removed","service":"live-polling-backend","timestamp":"2025-07-05 11:16:54"}
+{"level":"info","message":"Student Prathamesh disconnected and removed","service":"live-polling-backend","timestamp":"2025-07-05 11:16:54"}
+{"level":"info","message":"New socket connection: _7wiTpegZhcLHAADAAAJ","service":"live-polling-backend","timestamp":"2025-07-05 13:03:22"}
+{"level":"info","message":"Socket _7wiTpegZhcLHAADAAAJ connected and joined main room","service":"live-polling-backend","timestamp":"2025-07-05 13:03:22"}
+{"level":"info","message":"New socket connection: Sp7yLSpYTRbvxADDAAAM","service":"live-polling-backend","timestamp":"2025-07-05 13:03:22"}
+{"level":"info","message":"Socket Sp7yLSpYTRbvxADDAAAM connected and joined main room","service":"live-polling-backend","timestamp":"2025-07-05 13:03:22"}
+{"level":"info","message":"New socket connection: m_dMuSnTv0lc2uqPAAAN","service":"live-polling-backend","timestamp":"2025-07-05 13:03:22"}
+{"level":"info","message":"Socket m_dMuSnTv0lc2uqPAAAN connected and joined main room","service":"live-polling-backend","timestamp":"2025-07-05 13:03:22"}
+{"level":"info","message":"Socket _7wiTpegZhcLHAADAAAJ disconnected: transport close","service":"live-polling-backend","timestamp":"2025-07-05 13:03:34"}
+{"level":"info","message":"New socket connection: 2EQL4oj-d9sS6-LOAAAQ","service":"live-polling-backend","timestamp":"2025-07-05 13:03:34"}
+{"level":"info","message":"Socket 2EQL4oj-d9sS6-LOAAAQ connected and joined main room","service":"live-polling-backend","timestamp":"2025-07-05 13:03:34"}
+{"level":"info","message":"Student added: Ashitosh (2EQL4oj-d9sS6-LOAAAQ)","service":"live-polling-backend","timestamp":"2025-07-05 13:03:45"}
+{"level":"info","message":"Student joined: Ashitosh (2EQL4oj-d9sS6-LOAAAQ)","service":"live-polling-backend","timestamp":"2025-07-05 13:03:45"}
+{"level":"info","message":"Student joined: Ashitosh (2EQL4oj-d9sS6-LOAAAQ)","service":"live-polling-backend","timestamp":"2025-07-05 13:03:45"}
+{"level":"error","message":"Error joining session: This name is already taken. Please choose a different name.","service":"live-polling-backend","stack":"Error: This name is already taken. Please choose a different name.\n    at StudentService.joinSession (C:\\Users\\Admin\\Downloads\\projects\\live-poll\\backend\\src\\services\\studentService.js:18:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async StudentHandler.handleStudentJoin (C:\\Users\\Admin\\Downloads\\projects\\live-poll\\backend\\src\\socket\\handlers\\studentHandler.js:27:22)","timestamp":"2025-07-05 13:03:45"}
+{"level":"error","message":"Error joining session: This name is already taken. Please choose a different name.","service":"live-polling-backend","stack":"Error: This name is already taken. Please choose a different name.\n    at StudentService.joinSession (C:\\Users\\Admin\\Downloads\\projects\\live-poll\\backend\\src\\services\\studentService.js:18:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async StudentHandler.handleStudentJoin (C:\\Users\\Admin\\Downloads\\projects\\live-poll\\backend\\src\\socket\\handlers\\studentHandler.js:27:22)","timestamp":"2025-07-05 13:03:45"}
+{"level":"error","message":"Error handling student join: This name is already taken. Please choose a different name.","service":"live-polling-backend","stack":"Error: This name is already taken. Please choose a different name.\n    at StudentService.joinSession (C:\\Users\\Admin\\Downloads\\projects\\live-poll\\backend\\src\\services\\studentService.js:18:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async StudentHandler.handleStudentJoin (C:\\Users\\Admin\\Downloads\\projects\\live-poll\\backend\\src\\socket\\handlers\\studentHandler.js:27:22)","timestamp":"2025-07-05 13:03:45"}
+{"level":"error","message":"Error handling student join: This name is already taken. Please choose a different name.","service":"live-polling-backend","stack":"Error: This name is already taken. Please choose a different name.\n    at StudentService.joinSession (C:\\Users\\Admin\\Downloads\\projects\\live-poll\\backend\\src\\services\\studentService.js:18:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async StudentHandler.handleStudentJoin (C:\\Users\\Admin\\Downloads\\projects\\live-poll\\backend\\src\\socket\\handlers\\studentHandler.js:27:22)","timestamp":"2025-07-05 13:03:45"}
+{"level":"info","message":"Socket m_dMuSnTv0lc2uqPAAAN disconnected: transport close","service":"live-polling-backend","timestamp":"2025-07-05 13:04:00"}
+{"level":"info","message":"New socket connection: BhxWGb9agr2KLXRkAAAT","service":"live-polling-backend","timestamp":"2025-07-05 13:04:01"}
+{"level":"info","message":"Socket BhxWGb9agr2KLXRkAAAT connected and joined main room","service":"live-polling-backend","timestamp":"2025-07-05 13:04:01"}
+{"level":"info","message":"Teacher session set: BhxWGb9agr2KLXRkAAAT","service":"live-polling-backend","timestamp":"2025-07-05 13:04:01"}
+{"level":"info","message":"Teacher joined: BhxWGb9agr2KLXRkAAAT","service":"live-polling-backend","timestamp":"2025-07-05 13:04:01"}
+{"level":"info","message":"✅ MongoDB connected successfully","service":"live-polling-backend","timestamp":"2025-07-05 13:07:05"}
+{"level":"info","message":"🔄 Redis connecting...","service":"live-polling-backend","timestamp":"2025-07-05 13:07:05"}
+{"level":"info","message":"✅ Redis connected successfully","service":"live-polling-backend","timestamp":"2025-07-05 13:07:05"}
+{"level":"info","message":"✅ Socket.io server configured","service":"live-polling-backend","timestamp":"2025-07-05 13:07:05"}
+{"level":"info","message":"🚀 Server running on port 3001","service":"live-polling-backend","timestamp":"2025-07-05 13:07:05"}
+{"level":"info","message":"📊 Environment: development","service":"live-polling-backend","timestamp":"2025-07-05 13:07:05"}
+{"level":"info","message":"🌐 CORS enabled for: http://localhost:3000","service":"live-polling-backend","timestamp":"2025-07-05 13:07:05"}
+{"level":"info","message":"New socket connection: evaKf6GS5k-U0hfnAAAB","service":"live-polling-backend","timestamp":"2025-07-05 13:07:05"}
+{"level":"info","message":"Socket evaKf6GS5k-U0hfnAAAB connected and joined main room","service":"live-polling-backend","timestamp":"2025-07-05 13:07:05"}
+{"level":"info","message":"New socket connection: NlRQHS_2mNBgAqhnAAAE","service":"live-polling-backend","timestamp":"2025-07-05 13:07:05"}
+{"level":"info","message":"New socket connection: AT2G-RzPjW0YGF1uAAAF","service":"live-polling-backend","timestamp":"2025-07-05 13:07:05"}
+{"level":"info","message":"Socket NlRQHS_2mNBgAqhnAAAE connected and joined main room","service":"live-polling-backend","timestamp":"2025-07-05 13:07:05"}
+{"level":"info","message":"Socket AT2G-RzPjW0YGF1uAAAF connected and joined main room","service":"live-polling-backend","timestamp":"2025-07-05 13:07:05"}
+{"level":"info","message":"Socket AT2G-RzPjW0YGF1uAAAF disconnected: transport close","service":"live-polling-backend","timestamp":"2025-07-05 13:07:29"}
+{"level":"info","message":"New socket connection: 9KzbtaacJEopN2yVAAAI","service":"live-polling-backend","timestamp":"2025-07-05 13:07:30"}
+{"level":"info","message":"Socket 9KzbtaacJEopN2yVAAAI connected and joined main room","service":"live-polling-backend","timestamp":"2025-07-05 13:07:30"}
+{"level":"info","message":"Student added: Saurabh kale (9KzbtaacJEopN2yVAAAI)","service":"live-polling-backend","timestamp":"2025-07-05 13:07:30"}
+{"level":"info","message":"Student joined: Saurabh kale (9KzbtaacJEopN2yVAAAI)","service":"live-polling-backend","timestamp":"2025-07-05 13:07:30"}
+{"level":"info","message":"Student joined: Saurabh kale (9KzbtaacJEopN2yVAAAI)","service":"live-polling-backend","timestamp":"2025-07-05 13:07:30"}
+{"level":"error","message":"Error joining session: This name is already taken. Please choose a different name.","service":"live-polling-backend","stack":"Error: This name is already taken. Please choose a different name.\n    at StudentService.joinSession (C:\\Users\\Admin\\Downloads\\projects\\live-poll\\backend\\src\\services\\studentService.js:18:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async StudentHandler.handleStudentJoin (C:\\Users\\Admin\\Downloads\\projects\\live-poll\\backend\\src\\socket\\handlers\\studentHandler.js:27:22)","timestamp":"2025-07-05 13:07:57"}
+{"level":"error","message":"Error handling student join: This name is already taken. Please choose a different name.","service":"live-polling-backend","stack":"Error: This name is already taken. Please choose a different name.\n    at StudentService.joinSession (C:\\Users\\Admin\\Downloads\\projects\\live-poll\\backend\\src\\services\\studentService.js:18:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async StudentHandler.handleStudentJoin (C:\\Users\\Admin\\Downloads\\projects\\live-poll\\backend\\src\\socket\\handlers\\studentHandler.js:27:22)","timestamp":"2025-07-05 13:07:57"}
+{"level":"info","message":"Student added: sid (evaKf6GS5k-U0hfnAAAB)","service":"live-polling-backend","timestamp":"2025-07-05 13:08:04"}
+{"level":"info","message":"Student joined: sid (evaKf6GS5k-U0hfnAAAB)","service":"live-polling-backend","timestamp":"2025-07-05 13:08:04"}
+{"level":"info","message":"Student joined: sid (evaKf6GS5k-U0hfnAAAB)","service":"live-polling-backend","timestamp":"2025-07-05 13:08:05"}
+{"level":"error","message":"Error joining session: This name is already taken. Please choose a different name.","service":"live-polling-backend","stack":"Error: This name is already taken. Please choose a different name.\n    at StudentService.joinSession (C:\\Users\\Admin\\Downloads\\projects\\live-poll\\backend\\src\\services\\studentService.js:18:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async StudentHandler.handleStudentJoin (C:\\Users\\Admin\\Downloads\\projects\\live-poll\\backend\\src\\socket\\handlers\\studentHandler.js:27:22)","timestamp":"2025-07-05 13:08:05"}
+{"level":"error","message":"Error joining session: This name is already taken. Please choose a different name.","service":"live-polling-backend","stack":"Error: This name is already taken. Please choose a different name.\n    at StudentService.joinSession (C:\\Users\\Admin\\Downloads\\projects\\live-poll\\backend\\src\\services\\studentService.js:18:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async StudentHandler.handleStudentJoin (C:\\Users\\Admin\\Downloads\\projects\\live-poll\\backend\\src\\socket\\handlers\\studentHandler.js:27:22)","timestamp":"2025-07-05 13:08:05"}
+{"level":"error","message":"Error handling student join: This name is already taken. Please choose a different name.","service":"live-polling-backend","stack":"Error: This name is already taken. Please choose a different name.\n    at StudentService.joinSession (C:\\Users\\Admin\\Downloads\\projects\\live-poll\\backend\\src\\services\\studentService.js:18:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async StudentHandler.handleStudentJoin (C:\\Users\\Admin\\Downloads\\projects\\live-poll\\backend\\src\\socket\\handlers\\studentHandler.js:27:22)","timestamp":"2025-07-05 13:08:05"}
+{"level":"error","message":"Error handling student join: This name is already taken. Please choose a different name.","service":"live-polling-backend","stack":"Error: This name is already taken. Please choose a different name.\n    at StudentService.joinSession (C:\\Users\\Admin\\Downloads\\projects\\live-poll\\backend\\src\\services\\studentService.js:18:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async StudentHandler.handleStudentJoin (C:\\Users\\Admin\\Downloads\\projects\\live-poll\\backend\\src\\socket\\handlers\\studentHandler.js:27:22)","timestamp":"2025-07-05 13:08:05"}
+{"level":"info","message":"Teacher session set: 9KzbtaacJEopN2yVAAAI","service":"live-polling-backend","timestamp":"2025-07-05 13:08:13"}
+{"level":"info","message":"Teacher session set: 9KzbtaacJEopN2yVAAAI","service":"live-polling-backend","timestamp":"2025-07-05 13:08:13"}
+{"level":"info","message":"Teacher joined: 9KzbtaacJEopN2yVAAAI","service":"live-polling-backend","timestamp":"2025-07-05 13:08:13"}
+{"level":"info","message":"Teacher joined: 9KzbtaacJEopN2yVAAAI","service":"live-polling-backend","timestamp":"2025-07-05 13:08:13"}
