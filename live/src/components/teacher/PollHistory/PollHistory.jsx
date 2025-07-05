@@ -1,23 +1,38 @@
 import React, { useEffect, useState } from 'react'
 import { useSocket } from '../../../context/SocketContext'
 import styles from './PollHistory.module.css'
+import { useLocalStorage } from '../../../hooks/useLocalStorage'
 
 const PollHistory = () => {
   const [pollHistory, setPollHistory] = useState([])
   const [isLoading, setIsLoading] = useState(true)
   const { socket } = useSocket()
+  const [sessionId] = useLocalStorage('teacherSessionId', null)
 
   useEffect(() => {
-    // Fetch poll history when component mounts
-    if (socket) {
-      socket.emit('teacher:get_history', (response) => {
+    if (!socket || !sessionId) return;
+
+    const fetchHistory = () => {
+      socket.emit('teacher:get_history', { sessionId }, (response) => {
+        console.log('Poll history response:', response); // Debug log
         setIsLoading(false)
         if (response?.success) {
           setPollHistory(response.data?.polls || [])
         }
       })
+    };
+
+    if (socket.connected) {
+      fetchHistory();
+    } else {
+      socket.once('connect', fetchHistory);
     }
-  }, [socket])
+
+    // Cleanup listener on unmount
+    return () => {
+      socket.off('connect', fetchHistory);
+    };
+  }, [socket, sessionId]);
 
   const getPercentage = (count, total) => {
     if (total === 0) return 0

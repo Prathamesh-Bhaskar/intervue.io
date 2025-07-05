@@ -7,7 +7,7 @@ const PollResults = () => {
   const { currentPoll, pollResults } = state
 
   // Debug log to inspect structure
-  console.log('PollResults debug:', { pollResults, currentPoll })
+  //console.log('PollResults debug:', { pollResults, currentPoll })
 
   if (!currentPoll || !pollResults) {
     return <div>No results available</div>
@@ -45,7 +45,7 @@ const PollResults = () => {
             const barWidth = getBarWidth(count)
 
             // Debug log
-            console.log('option:', option, 'count:', count, 'percentage:', percentage, 'barWidth:', barWidth)
+            //console.log('option:', option, 'count:', count, 'percentage:', percentage, 'barWidth:', barWidth)
 
             return (
               <div key={index} className={styles.resultItem}>

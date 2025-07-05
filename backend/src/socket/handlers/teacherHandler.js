@@ -5,6 +5,7 @@ const timerService = require('../../services/timerService');
 const { SOCKET_EVENTS } = require('../../utils/constants');
 const { createErrorResponse, createSuccessResponse, generateSessionId } = require('../../utils/helpers');
 const logger = require('../../utils/logger');
+const Session = require('../../models/Session');
 
 class TeacherHandler {
 
@@ -20,6 +21,23 @@ class TeacherHandler {
 
       await redisService.setTeacherSession(sessionData);
 
+      // Create a session in MongoDB if not already present
+      let mongoSession = await Session.findOne({ 'teacherInfo.socketId': socket.id, isActive: true });
+      if (!mongoSession) {
+        mongoSession = await Session.create({
+          sessionId: sessionData.sessionId,
+          teacherInfo: {
+            socketId: socket.id,
+            joinedAt: new Date(),
+            lastSeen: new Date(),
+          },
+          isActive: true,
+        });
+        logger.info(`MongoDB session created for teacher: ${socket.id}`);
+      } else {
+        logger.info(`MongoDB session already exists for teacher: ${socket.id}`);
+      }
+
       // Join teacher room
       socket.join('teacher_room');
 
@@ -27,7 +45,7 @@ class TeacherHandler {
 
       if (callback) {
         callback(createSuccessResponse({
-          sessionId: sessionData.sessionId,
+          sessionId: mongoSession.sessionId,
           teacherInfo: sessionData,
         }, 'Teacher joined successfully'));
       }
@@ -44,8 +62,12 @@ class TeacherHandler {
     try {
       const { question, options, duration = 60 } = data;
 
-      // Create poll
-      const result = await pollService.createPoll({ question, options, duration }, socket.id);
+      // Get the current session for this teacher
+      const mongoSession = await Session.findOne({ 'teacherInfo.socketId': socket.id, isActive: true });
+      const sessionId = mongoSession ? mongoSession.sessionId : undefined;
+
+      // Create poll with the correct sessionId
+      const result = await pollService.createPoll({ question, options, duration, sessionId }, socket.id);
 
       // Start timer
       timerService.startTimer(
@@ -184,18 +206,21 @@ class TeacherHandler {
   }
 
   async handleGetHistory(socket, io, data, callback) {
+    console.log('[SOCKET] teacher:get_history event received', data, typeof callback);
     try {
-      const { limit = 10 } = data;
-
-      const pollHistory = await pollService.getPollHistory(socket.id, limit);
-
+      const { limit = 10, sessionId } = data;
+      let pollHistory;
+      if (sessionId) {
+        pollHistory = await pollService.getPollHistoryBySessionId(sessionId, limit);
+      } else {
+        pollHistory = await pollService.getPollHistory(socket.id, limit);
+      }
       if (callback) {
         callback(createSuccessResponse({
           polls: pollHistory,
           total: pollHistory.length,
         }, 'Poll history retrieved successfully'));
       }
-
     } catch (error) {
       logger.error('Error getting poll history:', error);
       if (callback) {

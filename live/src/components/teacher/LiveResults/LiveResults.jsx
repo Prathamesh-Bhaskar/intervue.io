@@ -17,11 +17,11 @@ const LiveResults = () => {
     const totalConnectedStudents =
       pollResults.connectedStudents ?? connectedStudents.length;
 
-    console.log("Checking votes:", {
-      voterCount,
-      totalConnectedStudents,
-      pollResults,
-    });
+    // console.log("Checking votes:", {
+    //   voterCount,
+    //   totalConnectedStudents,
+    //   pollResults,
+    // });
 
     // If there are connected students but not all have voted, show warning
     if (totalConnectedStudents > 0 && voterCount < totalConnectedStudents) {

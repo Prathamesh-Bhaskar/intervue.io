@@ -8,6 +8,7 @@ import StudentJoin from './components/student/StudentJoin/StudentJoin'
 import StudentDashboard from './components/student/StudentDashboard/StudentDashboard'
 import NotFound from './components/pages/NotFound/NotFound'
 import CreatePoll from './components/teacher/CreatePoll/CreatePoll'
+import PollHistory from './components/teacher/PollHistory/PollHistory'
 import styles from './App.module.css'
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
               <Route path="/" element={<LandingPage />} />
               <Route path="/teacher" element={<TeacherDashboard />} />
               <Route path="/teacher/create-poll" element={<CreatePoll />} />
+              <Route path="/teacher/history" element={<PollHistory />} />
               <Route path="/student/join" element={<StudentJoin />} />
               <Route path="/student/dashboard" element={<StudentDashboard />} />
               <Route path="/404" element={<NotFound />} />

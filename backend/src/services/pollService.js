@@ -9,7 +9,7 @@ class PollService {
   
   async createPoll(pollData, teacherSocketId) {
     try {
-      const { question, options, duration = 60 } = pollData;
+      const { question, options, duration = 60, sessionId: providedSessionId } = pollData;
 
       // Validation
       if (!question || !question.trim()) {
@@ -31,10 +31,15 @@ class PollService {
       }
 
       // Get or create session
-      let session = await Session.findActiveSession();
+      let session;
+      if (providedSessionId) {
+        session = await Session.findOne({ sessionId: providedSessionId });
+      } else {
+        session = await Session.findActiveSession();
+      }
       if (!session) {
         session = new Session({
-          sessionId: generateSessionId(),
+          sessionId: providedSessionId || generateSessionId(),
           teacherInfo: {
             socketId: teacherSocketId,
             joinedAt: new Date(),
@@ -215,21 +220,22 @@ class PollService {
 
   async getPollHistory(teacherSocketId, limit = 10) {
     try {
+      logger.info(`[getPollHistory] teacherSocketId: ${teacherSocketId}`);
       // Get teacher's session
       const session = await Session.findOne({
         'teacherInfo.socketId': teacherSocketId,
         isActive: true,
       });
-
+      logger.info(`[getPollHistory] session found: ${!!session} sessionId: ${session ? session.sessionId : 'none'}`);
       if (!session) {
+        logger.info('[getPollHistory] No active session found for teacher. Returning empty history.');
         return [];
       }
-
       // Get polls from this session
       const polls = await Poll.findBySessionId(session.sessionId)
         .limit(limit)
         .lean();
-
+      logger.info(`[getPollHistory] Polls found: ${polls.length}`);
       return polls.map(poll => ({
         ...poll,
         id: poll._id.toString(),
@@ -237,7 +243,6 @@ class PollService {
           ? Object.fromEntries(poll.results)
           : (poll.results || {}),
       }));
-
     } catch (error) {
       logger.error('Error getting poll history:', error);
       return [];
@@ -285,6 +290,24 @@ class PollService {
     } catch (error) {
       logger.error('Error getting session stats:', error);
       return null;
+    }
+  }
+
+  async getPollHistoryBySessionId(sessionId, limit = 10) {
+    try {
+      const polls = await Poll.findBySessionId(sessionId)
+        .limit(limit)
+        .lean();
+      return polls.map(poll => ({
+        ...poll,
+        id: poll._id.toString(),
+        results: Array.isArray(poll.results)
+          ? Object.fromEntries(poll.results)
+          : (poll.results || {}),
+      }));
+    } catch (error) {
+      logger.error('Error getting poll history by sessionId:', error);
+      return [];
     }
   }
 }
