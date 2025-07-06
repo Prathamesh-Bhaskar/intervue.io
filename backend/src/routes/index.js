@@ -28,7 +28,7 @@ router.get('/', (req, res) => {
       health: '/api/health',
     },
     socketEvents: {
-      connection: 'ws://localhost:3001',
+      connection: 'wss://pollsystembackend.onrender.com:3001',
       documentation: 'See README.md for Socket.io events',
     },
   });
