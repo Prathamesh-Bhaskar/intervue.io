@@ -1,4 +1,4 @@
-const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:3001/api'
+const API_BASE = import.meta.env.VITE_API_URL || 'https://pollsystembackend.onrender.com:3001/api'
 
 class ApiService {
   async request(endpoint, options = {}) {
