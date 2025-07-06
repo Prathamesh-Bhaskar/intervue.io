@@ -1,6 +1,6 @@
 const logger = require('../utils/logger');
 
-const allowedOrigins = (process.env.ALLOWED_ORIGINS || 'http://localhost:3000')
+const allowedOrigins = (process.env.ALLOWED_ORIGINS || 'https://slido-zeta.vercel.app/')
   .split(',')
   .map(origin => origin.trim());
 
