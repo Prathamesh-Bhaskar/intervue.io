@@ -7,7 +7,7 @@ class SocketService {
     this.isConnected = false
   }
 
-  connect(url = import.meta.env.VITE_SOCKET_URL || 'http://localhost:3001') {
+  connect(url = import.meta.env.VITE_SOCKET_URL || 'https://pollsystembackend.onrender.com:3001') {
     this.socket = io(url, {
       autoConnect: true,
       reconnection: true,
