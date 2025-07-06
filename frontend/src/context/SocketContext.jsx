@@ -46,6 +46,11 @@ export function SocketProvider({ children }) {
       dispatch({ type: 'SET_CONNECTED_STUDENTS', payload: students })
     })
 
+    newSocket.on('student:kicked', (data) => {
+      console.log('Student kicked event received:', data)
+      // The navigation will happen in the StudentDashboard component
+    })
+
     // Chat events
     newSocket.on('chat:message', (message) => {
       // Check if this message already exists in our state to prevent duplicates

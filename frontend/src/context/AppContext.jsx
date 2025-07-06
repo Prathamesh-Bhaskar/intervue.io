@@ -1,7 +1,4 @@
-// ===================================================================
-// context/AppContext.jsx
-// ===================================================================
-import React, { createContext, useContext, useReducer } from 'react'
+import React, { createContext, useContext, useReducer, useEffect } from 'react'
 
 const AppContext = createContext()
 
@@ -16,7 +13,7 @@ const initialState = {
   pollHistory: [],
   chatMessages: [],
   isChatOpen: false,
-  teacherDashboardView: 'create' // Add this new state
+  teacherDashboardView: 'create'
 }
 
 function appReducer(state, action) {
@@ -85,6 +82,17 @@ function appReducer(state, action) {
 
 export function AppProvider({ children }) {
   const [state, dispatch] = useReducer(appReducer, initialState)
+  
+  // Ensure we have the userType from localStorage on initial load and path changes
+  useEffect(() => {
+    const savedUserType = localStorage.getItem('userType')
+    if (savedUserType && savedUserType !== state.userType) {
+      dispatch({ type: 'SET_USER_TYPE', payload: savedUserType })
+    }
+    
+    // Debug the current userType
+    console.log('Current userType in AppContext:', state.userType)
+  }, [state.userType])
 
   return (
     <AppContext.Provider value={{ state, dispatch }}>

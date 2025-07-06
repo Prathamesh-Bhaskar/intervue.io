@@ -9,6 +9,7 @@ import StudentDashboard from './components/student/StudentDashboard/StudentDashb
 import NotFound from './components/pages/NotFound/NotFound'
 import CreatePoll from './components/teacher/CreatePoll/CreatePoll'
 import PollHistory from './components/teacher/PollHistory/PollHistory'
+import KickedOut from './components/student/KickedOut/KickedOut'
 import styles from './App.module.css'
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
               <Route path="/teacher/history" element={<PollHistory />} />
               <Route path="/student/join" element={<StudentJoin />} />
               <Route path="/student/dashboard" element={<StudentDashboard />} />
+              <Route path="/student/kicked-out" element={<KickedOut />} />
               <Route path="/404" element={<NotFound />} />
               <Route path="*" element={<Navigate to="/404" replace />} />
             </Routes>

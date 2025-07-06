@@ -166,42 +166,74 @@ class TeacherHandler {
   async handleKickStudent(socket, io, data, callback) {
     try {
       const { studentName } = data;
-
+  
       if (!studentName) {
         if (callback) {
           callback(createErrorResponse('Student name is required', 'INVALID_DATA'));
         }
         return;
       }
-
+  
       // Kick student
       const result = await studentService.kickStudent(studentName, socket.id);
-
+  
       // Find and disconnect the student's socket
       const connectedSockets = await io.in('main_room').fetchSockets();
-      const studentSocket = connectedSockets.find(s => s.id === result.kickedStudent.socketId);
+      const studentSocket = connectedSockets.find(s => s.id === result.kickedStudent?.socketId);
       
       if (studentSocket) {
-        studentSocket.emit(SOCKET_EVENTS.STUDENT_KICKED, {
+        // Send the kicked event to the specific student BEFORE disconnecting them
+        studentSocket.emit('student:kicked', {
           reason: 'Removed by teacher',
         });
-        studentSocket.disconnect(true);
+        
+        // Wait a short time to ensure the event is received
+        setTimeout(() => {
+          studentSocket.disconnect(true);
+        }, 500);
       }
-
-      // Broadcast updated student list
-      io.to('main_room').emit(SOCKET_EVENTS.STUDENTS_UPDATED, result.connectedStudents);
-
+  
+      // Broadcast updated student list to all remaining clients
+      io.to('main_room').emit('students:updated', result.connectedStudents);
+  
       logger.info(`Student kicked: ${studentName} by teacher ${socket.id}`);
-
+  
       if (callback) {
         callback(createSuccessResponse(result, 'Student kicked successfully'));
       }
-
+  
     } catch (error) {
       logger.error('Error kicking student:', error);
       if (callback) {
         callback(createErrorResponse(error.message || 'Failed to kick student', 'KICK_STUDENT_ERROR'));
       }
+    }
+  }
+
+  async handleTeacherDisconnection(socket, io) {
+    try {
+      // End any active polls
+      const activePoll = await redisService.getActivePoll();
+      if (activePoll) {
+        // Auto-end the poll
+        const pollService = require('../../services/pollService');
+        await pollService.endPoll(activePoll.id, socket.id);
+        
+        io.to('main_room').emit('poll:ended', {
+          reason: 'Teacher disconnected',
+        });
+      }
+  
+      // Clear teacher session
+      await redisService.clearTeacherSession();
+  
+      // Let students know the teacher has disconnected
+      io.to('main_room').emit('teacher:disconnected', {
+        message: 'The teacher has disconnected. Session will continue in view-only mode.'
+      });
+  
+    } catch (error) {
+      logger.error('Error handling teacher disconnection:', error);
     }
   }
 

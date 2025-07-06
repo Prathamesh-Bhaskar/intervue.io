@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { useApp } from '../../../../context/AppContext'
 import { useSocket } from '../../../../context/SocketContext'
 import styles from './ParticipantsList.module.css'
@@ -7,14 +7,29 @@ const ParticipantsList = () => {
   const { state } = useApp()
   const { socket } = useSocket()
   const { connectedStudents, userType } = state
+  const [kickingStudent, setKickingStudent] = useState(null)
 
   const handleKickStudent = (studentName) => {
     if (userType !== 'teacher') return
     
+    setKickingStudent(studentName)
+    
     if (window.confirm(`Are you sure you want to kick ${studentName}?`)) {
-      socket?.emit('teacher:kick_student', { studentName })
+      socket?.emit('teacher:kick_student', { studentName }, (response) => {
+        setKickingStudent(null)
+        if (response?.success) {
+          console.log(`${studentName} was kicked successfully`)
+        } else {
+          console.error(`Failed to kick ${studentName}:`, response?.error)
+        }
+      })
+    } else {
+      setKickingStudent(null)
     }
   }
+
+  // For debugging - log to see what userType we have
+  console.log('Current userType:', userType)
 
   return (
     <div className={styles.container}>
@@ -42,9 +57,9 @@ const ParticipantsList = () => {
                 <button
                   className={styles.kickBtn}
                   onClick={() => handleKickStudent(student.name)}
-                  title="Kick student"
+                  disabled={kickingStudent === student.name}
                 >
-                  Kick out
+                  {kickingStudent === student.name ? 'Kicking...' : 'Kick out'}
                 </button>
               )}
             </div>

@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react'
+import { useNavigate } from 'react-router-dom'
 import { useApp } from '../../../context/AppContext'
 import { useSocket } from '../../../context/SocketContext'
 import Header from '../../common/Header/Header'
@@ -12,13 +13,32 @@ const StudentDashboard = () => {
   const { state } = useApp()
   const { socket } = useSocket()
   const { currentPoll, hasVoted, timeRemaining, studentName } = state
+  const navigate = useNavigate()
 
   useEffect(() => {
     // Join the student session when component mounts
     if (socket && studentName) {
       socket.emit('student:join', { name: studentName })
     }
-  }, [socket, studentName])
+
+    // Listen for the kick event
+    const handleKickEvent = () => {
+      console.log('Student kicked out event received')
+      // Navigate to kicked out page
+      navigate('/student/kicked-out')
+    }
+
+    if (socket) {
+      socket.on('student:kicked', handleKickEvent)
+    }
+
+    // Clean up event listener on unmount
+    return () => {
+      if (socket) {
+        socket.off('student:kicked', handleKickEvent)
+      }
+    }
+  }, [socket, studentName, navigate])
 
   const renderContent = () => {
     if (!currentPoll) {
