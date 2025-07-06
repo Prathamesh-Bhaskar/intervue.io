@@ -1968,3 +1968,127 @@
 {"level":"info","message":"Teacher session set: 8fo0ggsuxnjHWbn5AAAB","service":"live-polling-backend","timestamp":"2025-07-06 01:30:20"}
 {"level":"info","message":"MongoDB session already exists for teacher: 8fo0ggsuxnjHWbn5AAAB","service":"live-polling-backend","timestamp":"2025-07-06 01:30:20"}
 {"level":"info","message":"Teacher joined: 8fo0ggsuxnjHWbn5AAAB","service":"live-polling-backend","timestamp":"2025-07-06 01:30:20"}
+{"level":"info","message":"✅ MongoDB connected successfully","service":"live-polling-backend","timestamp":"2025-07-06 10:09:14"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis connection error:","service":"live-polling-backend","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1139:18)\n    at afterConnectMultiple (node:net:1712:7)","timestamp":"2025-07-06 10:09:14"}
+{"level":"info","message":"🔄 Redis reconnecting...","service":"live-polling-backend","timestamp":"2025-07-06 10:09:14"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis connection error:","service":"live-polling-backend","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1139:18)\n    at afterConnectMultiple (node:net:1712:7)","timestamp":"2025-07-06 10:09:14"}
+{"level":"info","message":"🔄 Redis reconnecting...","service":"live-polling-backend","timestamp":"2025-07-06 10:09:14"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis connection error:","service":"live-polling-backend","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1139:18)\n    at afterConnectMultiple (node:net:1712:7)","timestamp":"2025-07-06 10:09:14"}
+{"level":"info","message":"🔄 Redis reconnecting...","service":"live-polling-backend","timestamp":"2025-07-06 10:09:14"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis connection error:","service":"live-polling-backend","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1139:18)\n    at afterConnectMultiple (node:net:1712:7)","timestamp":"2025-07-06 10:09:14"}
+{"level":"info","message":"🔄 Redis reconnecting...","service":"live-polling-backend","timestamp":"2025-07-06 10:09:15"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis connection error:","service":"live-polling-backend","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1139:18)\n    at afterConnectMultiple (node:net:1712:7)","timestamp":"2025-07-06 10:09:15"}
+{"level":"info","message":"🔄 Redis reconnecting...","service":"live-polling-backend","timestamp":"2025-07-06 10:09:16"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis connection error:","service":"live-polling-backend","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1139:18)\n    at afterConnectMultiple (node:net:1712:7)","timestamp":"2025-07-06 10:09:16"}
+{"level":"info","message":"✅ MongoDB connected successfully","service":"live-polling-backend","timestamp":"2025-07-06 10:10:50"}
+{"level":"info","message":"🔄 Redis connecting...","service":"live-polling-backend","timestamp":"2025-07-06 10:10:50"}
+{"level":"info","message":"✅ Redis connected successfully","service":"live-polling-backend","timestamp":"2025-07-06 10:10:50"}
+{"level":"info","message":"✅ Socket.io server configured","service":"live-polling-backend","timestamp":"2025-07-06 10:10:50"}
+{"level":"info","message":"🚀 Server running on port 3001","service":"live-polling-backend","timestamp":"2025-07-06 10:10:50"}
+{"level":"info","message":"📊 Environment: development","service":"live-polling-backend","timestamp":"2025-07-06 10:10:50"}
+{"level":"info","message":"🌐 CORS enabled for: http://localhost:3000","service":"live-polling-backend","timestamp":"2025-07-06 10:10:50"}
+{"level":"info","message":"New socket connection: 47_QtMyRYg2-9GybAAAC","service":"live-polling-backend","timestamp":"2025-07-06 10:12:16"}
+{"level":"info","message":"Socket 47_QtMyRYg2-9GybAAAC connected and joined main room","service":"live-polling-backend","timestamp":"2025-07-06 10:12:16"}
+{"level":"info","message":"Student added: Saurabh kale (47_QtMyRYg2-9GybAAAC)","service":"live-polling-backend","timestamp":"2025-07-06 10:12:16"}
+{"level":"info","message":"Student joined: Saurabh kale (47_QtMyRYg2-9GybAAAC)","service":"live-polling-backend","timestamp":"2025-07-06 10:12:16"}
+{"level":"info","message":"Student joined: Saurabh kale (47_QtMyRYg2-9GybAAAC)","service":"live-polling-backend","timestamp":"2025-07-06 10:12:16"}
+{"level":"info","message":"Socket 47_QtMyRYg2-9GybAAAC disconnected: transport close","service":"live-polling-backend","timestamp":"2025-07-06 10:12:18"}
+{"level":"info","message":"Student removed: Saurabh kale (47_QtMyRYg2-9GybAAAC)","service":"live-polling-backend","timestamp":"2025-07-06 10:12:18"}
+{"level":"info","message":"Student left: Saurabh kale (47_QtMyRYg2-9GybAAAC)","service":"live-polling-backend","timestamp":"2025-07-06 10:12:18"}
+{"level":"info","message":"Student Saurabh kale disconnected and removed","service":"live-polling-backend","timestamp":"2025-07-06 10:12:18"}
+{"level":"info","message":"New socket connection: L0ySKdIifqOgbcnmAAAF","service":"live-polling-backend","timestamp":"2025-07-06 10:12:25"}
+{"level":"info","message":"Socket L0ySKdIifqOgbcnmAAAF connected and joined main room","service":"live-polling-backend","timestamp":"2025-07-06 10:12:25"}
+{"level":"info","message":"Teacher session set: L0ySKdIifqOgbcnmAAAF","service":"live-polling-backend","timestamp":"2025-07-06 10:12:27"}
+{"level":"info","message":"Teacher session set: L0ySKdIifqOgbcnmAAAF","service":"live-polling-backend","timestamp":"2025-07-06 10:12:27"}
+{"level":"info","message":"MongoDB session created for teacher: L0ySKdIifqOgbcnmAAAF","service":"live-polling-backend","timestamp":"2025-07-06 10:12:27"}
+{"level":"info","message":"Teacher joined: L0ySKdIifqOgbcnmAAAF","service":"live-polling-backend","timestamp":"2025-07-06 10:12:27"}
+{"level":"info","message":"MongoDB session created for teacher: L0ySKdIifqOgbcnmAAAF","service":"live-polling-backend","timestamp":"2025-07-06 10:12:27"}
+{"level":"info","message":"Teacher joined: L0ySKdIifqOgbcnmAAAF","service":"live-polling-backend","timestamp":"2025-07-06 10:12:27"}
+{"level":"info","message":"New socket connection: upMZldOTH0YqlLzWAAAI","service":"live-polling-backend","timestamp":"2025-07-06 10:12:40"}
+{"level":"info","message":"Socket upMZldOTH0YqlLzWAAAI connected and joined main room","service":"live-polling-backend","timestamp":"2025-07-06 10:12:40"}
+{"level":"info","message":"Student added: Saurabh kale (upMZldOTH0YqlLzWAAAI)","service":"live-polling-backend","timestamp":"2025-07-06 10:12:57"}
+{"level":"info","message":"Student joined: Saurabh kale (upMZldOTH0YqlLzWAAAI)","service":"live-polling-backend","timestamp":"2025-07-06 10:12:57"}
+{"level":"info","message":"Student joined: Saurabh kale (upMZldOTH0YqlLzWAAAI)","service":"live-polling-backend","timestamp":"2025-07-06 10:12:57"}
+{"level":"info","message":"Teacher session set: L0ySKdIifqOgbcnmAAAF","service":"live-polling-backend","timestamp":"2025-07-06 10:12:57"}
+{"level":"info","message":"MongoDB session already exists for teacher: L0ySKdIifqOgbcnmAAAF","service":"live-polling-backend","timestamp":"2025-07-06 10:12:57"}
+{"level":"info","message":"Teacher joined: L0ySKdIifqOgbcnmAAAF","service":"live-polling-backend","timestamp":"2025-07-06 10:12:57"}
+{"level":"error","message":"Error joining session: This name is already taken. Please choose a different name.","service":"live-polling-backend","stack":"Error: This name is already taken. Please choose a different name.\n    at StudentService.joinSession (C:\\Users\\Admin\\Downloads\\projects\\intervue.io\\backend\\src\\services\\studentService.js:18:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async StudentHandler.handleStudentJoin (C:\\Users\\Admin\\Downloads\\projects\\intervue.io\\backend\\src\\socket\\handlers\\studentHandler.js:27:22)","timestamp":"2025-07-06 10:12:57"}
+{"level":"error","message":"Error joining session: This name is already taken. Please choose a different name.","service":"live-polling-backend","stack":"Error: This name is already taken. Please choose a different name.\n    at StudentService.joinSession (C:\\Users\\Admin\\Downloads\\projects\\intervue.io\\backend\\src\\services\\studentService.js:18:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async StudentHandler.handleStudentJoin (C:\\Users\\Admin\\Downloads\\projects\\intervue.io\\backend\\src\\socket\\handlers\\studentHandler.js:27:22)","timestamp":"2025-07-06 10:12:57"}
+{"level":"error","message":"Error handling student join: This name is already taken. Please choose a different name.","service":"live-polling-backend","stack":"Error: This name is already taken. Please choose a different name.\n    at StudentService.joinSession (C:\\Users\\Admin\\Downloads\\projects\\intervue.io\\backend\\src\\services\\studentService.js:18:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async StudentHandler.handleStudentJoin (C:\\Users\\Admin\\Downloads\\projects\\intervue.io\\backend\\src\\socket\\handlers\\studentHandler.js:27:22)","timestamp":"2025-07-06 10:12:57"}
+{"level":"error","message":"Error handling student join: This name is already taken. Please choose a different name.","service":"live-polling-backend","stack":"Error: This name is already taken. Please choose a different name.\n    at StudentService.joinSession (C:\\Users\\Admin\\Downloads\\projects\\intervue.io\\backend\\src\\services\\studentService.js:18:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async StudentHandler.handleStudentJoin (C:\\Users\\Admin\\Downloads\\projects\\intervue.io\\backend\\src\\socket\\handlers\\studentHandler.js:27:22)","timestamp":"2025-07-06 10:12:57"}
+{"level":"info","message":"Active poll set: 6869fee5b9744e386a896577","service":"live-polling-backend","timestamp":"2025-07-06 10:13:17"}
+{"level":"info","message":"Poll votes initialized for: 6869fee5b9744e386a896577","service":"live-polling-backend","timestamp":"2025-07-06 10:13:17"}
+{"level":"info","message":"Poll created: 6869fee5b9744e386a896577 by L0ySKdIifqOgbcnmAAAF","service":"live-polling-backend","timestamp":"2025-07-06 10:13:17"}
+{"level":"info","message":"Timer started for poll 6869fee5b9744e386a896577: 60 seconds","service":"live-polling-backend","timestamp":"2025-07-06 10:13:17"}
+{"level":"info","message":"Poll created and broadcasted: 6869fee5b9744e386a896577","service":"live-polling-backend","timestamp":"2025-07-06 10:13:17"}
+{"level":"info","message":"Teacher session set: L0ySKdIifqOgbcnmAAAF","service":"live-polling-backend","timestamp":"2025-07-06 10:13:17"}
+{"level":"info","message":"MongoDB session already exists for teacher: L0ySKdIifqOgbcnmAAAF","service":"live-polling-backend","timestamp":"2025-07-06 10:13:17"}
+{"level":"info","message":"Teacher joined: L0ySKdIifqOgbcnmAAAF","service":"live-polling-backend","timestamp":"2025-07-06 10:13:17"}
+{"level":"info","message":"Teacher session set: L0ySKdIifqOgbcnmAAAF","service":"live-polling-backend","timestamp":"2025-07-06 10:13:17"}
+{"level":"info","message":"MongoDB session already exists for teacher: L0ySKdIifqOgbcnmAAAF","service":"live-polling-backend","timestamp":"2025-07-06 10:13:17"}
+{"level":"info","message":"Teacher joined: L0ySKdIifqOgbcnmAAAF","service":"live-polling-backend","timestamp":"2025-07-06 10:13:17"}
+{"level":"info","message":"Teacher session set: L0ySKdIifqOgbcnmAAAF","service":"live-polling-backend","timestamp":"2025-07-06 10:13:17"}
+{"level":"info","message":"MongoDB session already exists for teacher: L0ySKdIifqOgbcnmAAAF","service":"live-polling-backend","timestamp":"2025-07-06 10:13:17"}
+{"level":"info","message":"Teacher joined: L0ySKdIifqOgbcnmAAAF","service":"live-polling-backend","timestamp":"2025-07-06 10:13:17"}
+{"level":"info","message":"Teacher session set: L0ySKdIifqOgbcnmAAAF","service":"live-polling-backend","timestamp":"2025-07-06 10:13:18"}
+{"level":"info","message":"MongoDB session already exists for teacher: L0ySKdIifqOgbcnmAAAF","service":"live-polling-backend","timestamp":"2025-07-06 10:13:18"}
+{"level":"info","message":"Teacher joined: L0ySKdIifqOgbcnmAAAF","service":"live-polling-backend","timestamp":"2025-07-06 10:13:18"}
+{"level":"info","message":"Teacher session set: L0ySKdIifqOgbcnmAAAF","service":"live-polling-backend","timestamp":"2025-07-06 10:13:19"}
+{"level":"info","message":"MongoDB session already exists for teacher: L0ySKdIifqOgbcnmAAAF","service":"live-polling-backend","timestamp":"2025-07-06 10:13:19"}
+{"level":"info","message":"Teacher joined: L0ySKdIifqOgbcnmAAAF","service":"live-polling-backend","timestamp":"2025-07-06 10:13:19"}
+{"level":"info","message":"Teacher session set: L0ySKdIifqOgbcnmAAAF","service":"live-polling-backend","timestamp":"2025-07-06 10:13:20"}
+{"level":"info","message":"MongoDB session already exists for teacher: L0ySKdIifqOgbcnmAAAF","service":"live-polling-backend","timestamp":"2025-07-06 10:13:20"}
+{"level":"info","message":"Teacher joined: L0ySKdIifqOgbcnmAAAF","service":"live-polling-backend","timestamp":"2025-07-06 10:13:20"}
+{"level":"info","message":"Teacher session set: L0ySKdIifqOgbcnmAAAF","service":"live-polling-backend","timestamp":"2025-07-06 10:13:21"}
+{"level":"info","message":"MongoDB session already exists for teacher: L0ySKdIifqOgbcnmAAAF","service":"live-polling-backend","timestamp":"2025-07-06 10:13:21"}
+{"level":"info","message":"Teacher joined: L0ySKdIifqOgbcnmAAAF","service":"live-polling-backend","timestamp":"2025-07-06 10:13:21"}
+{"level":"info","message":"Vote submitted: Saurabh kale voted for \"1\" in poll 6869fee5b9744e386a896577","service":"live-polling-backend","timestamp":"2025-07-06 10:13:22"}
+{"level":"info","message":"Vote submitted: Saurabh kale voted for \"1\" in poll 6869fee5b9744e386a896577","service":"live-polling-backend","timestamp":"2025-07-06 10:13:22"}
+{"level":"info","message":"Teacher session set: L0ySKdIifqOgbcnmAAAF","service":"live-polling-backend","timestamp":"2025-07-06 10:13:22"}
+{"level":"info","message":"MongoDB session already exists for teacher: L0ySKdIifqOgbcnmAAAF","service":"live-polling-backend","timestamp":"2025-07-06 10:13:22"}
+{"level":"info","message":"Teacher joined: L0ySKdIifqOgbcnmAAAF","service":"live-polling-backend","timestamp":"2025-07-06 10:13:22"}
+{"level":"info","message":"Teacher session set: L0ySKdIifqOgbcnmAAAF","service":"live-polling-backend","timestamp":"2025-07-06 10:13:22"}
+{"level":"info","message":"MongoDB session already exists for teacher: L0ySKdIifqOgbcnmAAAF","service":"live-polling-backend","timestamp":"2025-07-06 10:13:22"}
+{"level":"info","message":"Teacher joined: L0ySKdIifqOgbcnmAAAF","service":"live-polling-backend","timestamp":"2025-07-06 10:13:22"}
+{"level":"info","message":"Teacher session set: L0ySKdIifqOgbcnmAAAF","service":"live-polling-backend","timestamp":"2025-07-06 10:13:22"}
+{"level":"info","message":"MongoDB session already exists for teacher: L0ySKdIifqOgbcnmAAAF","service":"live-polling-backend","timestamp":"2025-07-06 10:13:22"}
+{"level":"info","message":"Teacher joined: L0ySKdIifqOgbcnmAAAF","service":"live-polling-backend","timestamp":"2025-07-06 10:13:22"}
+{"level":"info","message":"Teacher session set: L0ySKdIifqOgbcnmAAAF","service":"live-polling-backend","timestamp":"2025-07-06 10:13:23"}
+{"level":"info","message":"MongoDB session already exists for teacher: L0ySKdIifqOgbcnmAAAF","service":"live-polling-backend","timestamp":"2025-07-06 10:13:23"}
+{"level":"info","message":"Teacher joined: L0ySKdIifqOgbcnmAAAF","service":"live-polling-backend","timestamp":"2025-07-06 10:13:23"}
+{"level":"info","message":"Teacher session set: L0ySKdIifqOgbcnmAAAF","service":"live-polling-backend","timestamp":"2025-07-06 10:13:24"}
+{"level":"info","message":"MongoDB session already exists for teacher: L0ySKdIifqOgbcnmAAAF","service":"live-polling-backend","timestamp":"2025-07-06 10:13:24"}
+{"level":"info","message":"Teacher joined: L0ySKdIifqOgbcnmAAAF","service":"live-polling-backend","timestamp":"2025-07-06 10:13:24"}
+{"level":"info","message":"Teacher session set: L0ySKdIifqOgbcnmAAAF","service":"live-polling-backend","timestamp":"2025-07-06 10:13:25"}
+{"level":"info","message":"MongoDB session already exists for teacher: L0ySKdIifqOgbcnmAAAF","service":"live-polling-backend","timestamp":"2025-07-06 10:13:25"}
+{"level":"info","message":"Teacher joined: L0ySKdIifqOgbcnmAAAF","service":"live-polling-backend","timestamp":"2025-07-06 10:13:25"}
+{"level":"info","message":"Teacher session set: L0ySKdIifqOgbcnmAAAF","service":"live-polling-backend","timestamp":"2025-07-06 10:13:26"}
+{"level":"info","message":"MongoDB session already exists for teacher: L0ySKdIifqOgbcnmAAAF","service":"live-polling-backend","timestamp":"2025-07-06 10:13:26"}
+{"level":"info","message":"Teacher joined: L0ySKdIifqOgbcnmAAAF","service":"live-polling-backend","timestamp":"2025-07-06 10:13:26"}
+{"level":"info","message":"Teacher session set: L0ySKdIifqOgbcnmAAAF","service":"live-polling-backend","timestamp":"2025-07-06 10:13:27"}
+{"level":"info","message":"MongoDB session already exists for teacher: L0ySKdIifqOgbcnmAAAF","service":"live-polling-backend","timestamp":"2025-07-06 10:13:27"}
+{"level":"info","message":"Teacher joined: L0ySKdIifqOgbcnmAAAF","service":"live-polling-backend","timestamp":"2025-07-06 10:13:27"}
+{"level":"info","message":"Teacher session set: L0ySKdIifqOgbcnmAAAF","service":"live-polling-backend","timestamp":"2025-07-06 10:13:28"}
+{"level":"info","message":"MongoDB session already exists for teacher: L0ySKdIifqOgbcnmAAAF","service":"live-polling-backend","timestamp":"2025-07-06 10:13:28"}
+{"level":"info","message":"Teacher joined: L0ySKdIifqOgbcnmAAAF","service":"live-polling-backend","timestamp":"2025-07-06 10:13:28"}
+{"level":"info","message":"Teacher session set: L0ySKdIifqOgbcnmAAAF","service":"live-polling-backend","timestamp":"2025-07-06 10:13:29"}
+{"level":"info","message":"MongoDB session already exists for teacher: L0ySKdIifqOgbcnmAAAF","service":"live-polling-backend","timestamp":"2025-07-06 10:13:29"}
+{"level":"info","message":"Teacher joined: L0ySKdIifqOgbcnmAAAF","service":"live-polling-backend","timestamp":"2025-07-06 10:13:29"}
+{"level":"info","message":"Active poll cleared","service":"live-polling-backend","timestamp":"2025-07-06 10:13:29"}
+{"level":"info","message":"Poll votes cleared for: 6869fee5b9744e386a896577","service":"live-polling-backend","timestamp":"2025-07-06 10:13:29"}
+{"level":"info","message":"Poll ended: 6869fee5b9744e386a896577","service":"live-polling-backend","timestamp":"2025-07-06 10:13:29"}
+{"level":"info","message":"Timer stopped for poll 6869fee5b9744e386a896577","service":"live-polling-backend","timestamp":"2025-07-06 10:13:29"}
+{"level":"info","message":"Teacher session set: L0ySKdIifqOgbcnmAAAF","service":"live-polling-backend","timestamp":"2025-07-06 10:13:29"}
+{"level":"info","message":"All students vote status reset","service":"live-polling-backend","timestamp":"2025-07-06 10:13:29"}
+{"level":"info","message":"Poll ended by teacher: 6869fee5b9744e386a896577","service":"live-polling-backend","timestamp":"2025-07-06 10:13:29"}
+{"level":"info","message":"MongoDB session already exists for teacher: L0ySKdIifqOgbcnmAAAF","service":"live-polling-backend","timestamp":"2025-07-06 10:13:29"}
+{"level":"info","message":"Teacher joined: L0ySKdIifqOgbcnmAAAF","service":"live-polling-backend","timestamp":"2025-07-06 10:13:29"}
+{"level":"info","message":"Teacher session set: L0ySKdIifqOgbcnmAAAF","service":"live-polling-backend","timestamp":"2025-07-06 10:13:29"}
+{"level":"info","message":"MongoDB session already exists for teacher: L0ySKdIifqOgbcnmAAAF","service":"live-polling-backend","timestamp":"2025-07-06 10:13:29"}
+{"level":"info","message":"Teacher joined: L0ySKdIifqOgbcnmAAAF","service":"live-polling-backend","timestamp":"2025-07-06 10:13:29"}
+{"level":"info","message":"Teacher session set: L0ySKdIifqOgbcnmAAAF","service":"live-polling-backend","timestamp":"2025-07-06 10:14:13"}
+{"level":"info","message":"Teacher session set: L0ySKdIifqOgbcnmAAAF","service":"live-polling-backend","timestamp":"2025-07-06 10:14:13"}
+{"level":"info","message":"MongoDB session already exists for teacher: L0ySKdIifqOgbcnmAAAF","service":"live-polling-backend","timestamp":"2025-07-06 10:14:13"}
+{"level":"info","message":"Teacher joined: L0ySKdIifqOgbcnmAAAF","service":"live-polling-backend","timestamp":"2025-07-06 10:14:13"}
+{"level":"info","message":"MongoDB session already exists for teacher: L0ySKdIifqOgbcnmAAAF","service":"live-polling-backend","timestamp":"2025-07-06 10:14:13"}
+{"level":"info","message":"Teacher joined: L0ySKdIifqOgbcnmAAAF","service":"live-polling-backend","timestamp":"2025-07-06 10:14:13"}

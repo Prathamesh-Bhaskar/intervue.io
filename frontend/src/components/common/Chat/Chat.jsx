@@ -10,7 +10,7 @@ const Chat = () => {
   const [activeTab, setActiveTab] = useState('chat') // 'chat' or 'participants'
   const [message, setMessage] = useState('')
   const messagesEndRef = useRef(null)
-  const { state, dispatch } = useApp()
+  const { state } = useApp()
   const { socket } = useSocket()
   const { chatMessages, userType, studentName } = state
 
@@ -34,10 +34,11 @@ const Chat = () => {
       timestamp: new Date().toISOString()
     }
 
+    // Only emit the message to the server and let the socket event handler
+    // add it to the state when it comes back from the server
     socket?.emit('chat:send_message', messageData)
     
-    // Add to local state immediately
-    dispatch({ type: 'ADD_CHAT_MESSAGE', payload: messageData })
+    // Clear the input field after sending
     setMessage('')
   }
 
@@ -95,7 +96,10 @@ const Chat = () => {
                       </div>
                     ) : (
                       chatMessages.map((msg, index) => (
-                        <ChatMessage key={index} message={msg} />
+                        <ChatMessage 
+                          key={msg.id || `${msg.sender}-${msg.timestamp}-${index}`} 
+                          message={msg} 
+                        />
                       ))
                     )}
                     <div ref={messagesEndRef} />

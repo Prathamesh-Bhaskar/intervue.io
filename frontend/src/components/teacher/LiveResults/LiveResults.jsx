@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { useApp } from "../../../context/AppContext";
 import { useSocket } from "../../../context/SocketContext";
 import PollResults from "../../common/PollResults/PollResults";
@@ -9,6 +10,7 @@ const LiveResults = () => {
   const { socket } = useSocket();
   const { currentPoll, pollResults, connectedStudents } = state;
   const [showWarning, setShowWarning] = useState(false);
+  const navigate = useNavigate();
 
   const handleNewQuestion = () => {
     // Check if all connected students have submitted their votes
@@ -17,11 +19,11 @@ const LiveResults = () => {
     const totalConnectedStudents =
       pollResults.connectedStudents ?? connectedStudents.length;
 
-    // console.log("Checking votes:", {
-    //   voterCount,
-    //   totalConnectedStudents,
-    //   pollResults,
-    // });
+    console.log("Checking votes:", {
+      voterCount,
+      totalConnectedStudents,
+      pollResults,
+    });
 
     // If there are connected students but not all have voted, show warning
     if (totalConnectedStudents > 0 && voterCount < totalConnectedStudents) {
@@ -33,7 +35,8 @@ const LiveResults = () => {
     setShowWarning(false);
 
     // All students have answered (or no students connected), end poll and redirect to create
-    socket?.emit("teacher:end_poll", (response) => {
+    socket?.emit("teacher:end_poll", {}, (response) => {
+      console.log("End poll response:", response);
       if (response?.success) {
         // Reset poll and navigate to create view atomically
         dispatch({ type: "RESET_POLL_AND_GO_TO_CREATE" });
@@ -41,6 +44,10 @@ const LiveResults = () => {
         console.error("Failed to end poll:", response);
       }
     });
+  };
+
+  const handleViewHistory = () => {
+    navigate('/teacher/history');
   };
 
   if (!currentPoll) {
@@ -51,33 +58,8 @@ const LiveResults = () => {
     );
   }
 
-  const handleViewHistory = () => {
-    // Navigate to poll history page
-    // You can implement the navigation logic here
-    console.log("Navigating to poll history");
-  };
-
   return (
     <div className={styles.container}>
-      <div className={styles.header}>
-        <div className={styles.placeholder}></div>
-        <button className={styles.viewHistoryBtn} onClick={handleViewHistory}>
-          <svg
-            className={styles.eyeIcon}
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          >
-            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
-            <circle cx="12" cy="12" r="3"></circle>
-          </svg>
-          View Poll history
-        </button>
-      </div>
       <PollResults />
 
       <div className={styles.actions}>

@@ -1,13 +1,12 @@
 import React, { useEffect } from "react";
+import { useNavigate } from 'react-router-dom';
 import { useApp } from "../../../context/AppContext";
 import { useSocket } from "../../../context/SocketContext";
 import Header from "../../common/Header/Header";
 import CreatePoll from "../CreatePoll/CreatePoll";
 import LiveResults from "../LiveResults/LiveResults";
-import PollHistory from "../PollHistory/PollHistory";
 import Chat from "../../common/Chat/Chat";
 import styles from "./TeacherDashboard.module.css";
-import { useNavigate } from 'react-router-dom';
 import { useLocalStorage } from '../../../hooks/useLocalStorage';
 
 const TeacherDashboard = () => {
@@ -20,8 +19,11 @@ const TeacherDashboard = () => {
   useEffect(() => {
     // Join as teacher when component mounts
     if (socket) {
-      socket.emit("teacher:join", (response) => {
+      console.log("Joining as teacher...");
+      socket.emit("teacher:join", {}, (response) => {
+        console.log("Teacher join response:", response);
         if (response?.success && response.data?.sessionId) {
+          console.log("Setting teacher sessionId:", response.data.sessionId);
           setSessionId(response.data.sessionId);
         }
       });
@@ -38,14 +40,16 @@ const TeacherDashboard = () => {
     }
   }, [currentPoll, dispatch, teacherDashboardView]);
 
+  const handleViewHistory = () => {
+    navigate('/teacher/history');
+  };
+
   const renderContent = () => {
     switch (teacherDashboardView) {
       case "create":
         return <CreatePoll />;
       case "results":
         return <LiveResults />;
-      case "history":
-        return <PollHistory />;
       default:
         return <CreatePoll />;
     }
@@ -56,13 +60,28 @@ const TeacherDashboard = () => {
       <Header />
 
       <div className={styles.content}>
-        <button
-          className={styles.historyButton}
-          onClick={() => navigate('/teacher/history')}
-          style={{ marginBottom: '1rem', alignSelf: 'flex-end' }}
-        >
-          View History
-        </button>
+        <div className={styles.header}>
+          <div className={styles.placeholder}></div>
+          <button 
+            className={styles.viewHistoryBtn} 
+            onClick={handleViewHistory}
+          >
+            <svg
+              className={styles.eyeIcon}
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+              <circle cx="12" cy="12" r="3"></circle>
+            </svg>
+            View Poll history
+          </button>
+        </div>
         <div className={styles.main}>{renderContent()}</div>
       </div>
 

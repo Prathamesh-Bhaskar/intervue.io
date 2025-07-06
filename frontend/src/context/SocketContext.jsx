@@ -7,7 +7,7 @@ const SocketContext = createContext()
 export function SocketProvider({ children }) {
   const [socket, setSocket] = useState(null)
   const [isConnected, setIsConnected] = useState(false)
-  const { dispatch } = useApp()
+  const { dispatch, state } = useApp()
 
   useEffect(() => {
     const socketUrl = import.meta.env.VITE_SOCKET_URL || 'http://localhost:3001'
@@ -48,7 +48,16 @@ export function SocketProvider({ children }) {
 
     // Chat events
     newSocket.on('chat:message', (message) => {
-      dispatch({ type: 'ADD_CHAT_MESSAGE', payload: message })
+      // Check if this message already exists in our state to prevent duplicates
+      const isDuplicate = state.chatMessages.some(msg => 
+        msg.sender === message.sender && 
+        msg.message === message.message &&
+        msg.timestamp === message.timestamp
+      )
+      
+      if (!isDuplicate) {
+        dispatch({ type: 'ADD_CHAT_MESSAGE', payload: message })
+      }
     })
 
     setSocket(newSocket)
@@ -56,7 +65,7 @@ export function SocketProvider({ children }) {
     return () => {
       newSocket.close()
     }
-  }, [dispatch])
+  }, [dispatch, state.chatMessages])
 
   return (
     <SocketContext.Provider value={{ socket, isConnected }}>
