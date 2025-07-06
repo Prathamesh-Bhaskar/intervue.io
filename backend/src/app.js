@@ -16,7 +16,7 @@ app.use(helmet({
   contentSecurityPolicy: {
     directives: {
       defaultSrc: ["'self'"],
-      connectSrc: ["'self'", process.env.CLIENT_URL || "https://pollsystembackend.onrender.com/3000"],
+      connectSrc: ["'self'", process.env.CLIENT_URL || "https://pollsystembackend.onrender.com:3000"],
     },
   },
 }));
