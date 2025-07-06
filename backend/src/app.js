@@ -16,7 +16,7 @@ app.use(helmet({
   contentSecurityPolicy: {
     directives: {
       defaultSrc: ["'self'"],
-      connectSrc: ["'self'", process.env.CLIENT_URL || "https://pollsystembackend.onrender.com/"],
+      connectSrc: ["'self'", process.env.CLIENT_URL || "https://slido-zeta.vercel.app/"],
     },
   },
 }));
